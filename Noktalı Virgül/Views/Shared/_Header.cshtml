@@ -1,0 +1,96 @@
+﻿@{
+    var kullaniciadi = User.Identity.Name.Split(' ');
+}
+
+
+<header id="header">
+
+    <div class="header-middle">
+
+        <!--header-middle-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="logo pull-left">
+                        <a href="/"><img src="~/Content/images/home/Anasayfalogo.png" alt="" /></a>
+
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="search_box">
+                        @using (Html.BeginForm("UrunArama", "Urun", FormMethod.Get))
+                        {
+                            @Html.TextBox("q", null, htmlAttributes: new { @class = "form-group" })
+
+                            <button class="btn btn-success" type="submit">Ara</button>
+
+                        }
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="shop-menu pull-right">
+                        <ul class="nav navbar-nav">
+
+                            <li><a href="/"><i class="fa fa-home"></i>Anasayfa</a></li>
+
+                            <li><a href="/Urun/Favorilerim/3"><i class="fa fa-star"></i> Favoriler</a></li>
+
+                            <li><a href="/Urun/Sepet"><i class="fa fa-shopping-cart"></i> Sepet</a></li>
+
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <li class="dropdown">
+                                    <a> @kullaniciadi[0] @kullaniciadi[1]<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="/Hesap/SifreDegistir" class="active">Şifre Değiştirme</a></li>
+                                        <li><a href="/Hesap/SiparisGoruntule" class="active">Sipariş Geçmişini Görüntüleme</a></li>
+                                        <li><a href="/Hesap/KisiselBilgiler" class="active">Kişisel Bilgileri Güncelleme</a></li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    @using (Html.BeginForm("LogOut", "Login", FormMethod.Post))
+                                    {
+                                        @Html.AntiForgeryToken()
+                                        //@Html.ValidationSummary()
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="fa fa-lock"></i> Çıkış Yap
+                                        </button>
+                                    }
+
+                                </li>
+                            }
+                            else
+                            {
+                                <li><a href="/Login/Login"><i class="fa fa-user"></i> Hesabım</a></li>
+                                <li><a href="/Login/Login"><i class="fa fa-lock"></i> Giriş Yap</a></li>
+                            }
+
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/header-middle-->
+
+    <div class="header-bottom">
+        <!--header-bottom-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div><!--/header-bottom-->
+</header><!--/header-->

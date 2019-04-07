@@ -1,0 +1,23 @@
+﻿@using Noktalı_Virgül.Models.VeriTabani
+@{
+    ViewBag.Title = "MesajGoster";
+    Layout = "~/Views/Shared/_Layout4.cshtml";
+    tblMesaj mesaj = ViewBag.mesaj;
+    string aliciMail = mesaj.Email;
+}
+
+<div class="container">
+    @if (mesaj.GonderciTipi == true)
+    {
+        <p><b>Gönderici Tipi : </b>Kullanıcı</p>
+    }
+    else
+    {
+        <p><b>Gönderici Tipi : </b>Ziyaretçi</p>
+
+    }
+    <p><b>Ad Soyad : </b>@mesaj.AdSoyad</p>
+    <strong>E-Mail:</strong><a style="background-color:#FE980F" href="mailto:@aliciMail "> @mesaj.Email</a><br />
+    <p><b>Konu : </b>@mesaj.Konu</p>
+    <p><b>Mesaj : </b>@mesaj.Mesaj</p>
+</div>

@@ -1,0 +1,57 @@
+﻿@model Noktalı_Virgül.Models.VeriTabani.tblKitapTur
+@using Noktalı_Virgül.Models.VeriTabani
+@{
+    ViewBag.Title = "KategoriGuncelleme";
+    Layout = "~/Views/Shared/_Layout4.cshtml";
+    
+}
+
+<script src="http://code.jquery.com/jquery-1.11.0.js"
+        integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw="
+        crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function myfunction() {
+
+        $(".guncelle").click(function () {
+            var uid = $(this).attr("name");
+            var uAd = $("#tur").val();
+        
+            $.ajax(
+                {
+                    type: "POST",
+                    url: "/Admin/Kaydet",
+                    data: { id: uid, ad: uAd },
+                    success: function (gelenveri) {
+                        if (gelenveri == "bos") {
+                            alert("Tur Adı Boş Geçilemez!");
+                        } else if (gelenveri == "var") {
+                            alert("Aynı isimde tur var!");
+                        }
+                        else {
+                            window.location = "/Admin/KategoriIslemleri"
+                        }
+
+                    },
+                    error: function () {
+                    }
+                });
+
+        });
+    });
+</script>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 col-sm-offset-1">
+            <div id="Login">
+                <div class="form-group">
+                    <input type="text" id="tur" class="turAdi" value="@Model.TurAdi" placeholder="Tur Adı"/>
+                </div>
+                <button type="submit" class="btn btn-primary guncelle" name="@Model.TurID">Güncelle</button>
+
+            </div>
+
+        </div>
+    </div>
+</div>

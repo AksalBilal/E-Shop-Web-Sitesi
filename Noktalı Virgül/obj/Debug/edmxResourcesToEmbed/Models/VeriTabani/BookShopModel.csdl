@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HizliProjeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblAdmin">
+    <Key>
+      <PropertyRef Name="AdminID" />
+    </Key>
+    <Property Name="AdminID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Sifre" Type="String" MaxLength="16" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblFavoriler">
+    <Key>
+      <PropertyRef Name="FavoriID" />
+    </Key>
+    <Property Name="FavoriID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MusteriID" Type="Int32" Nullable="false" />
+    <Property Name="UrunID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblKullanici" Relationship="Self.FK_tblFavoriler_tblKullanici" FromRole="tblFavoriler" ToRole="tblKullanici" />
+    <NavigationProperty Name="tblKitap" Relationship="HizliProjeModel.FK_tblFavoriler_tblKitap" FromRole="tblFavoriler" ToRole="tblKitap" />
+  </EntityType>
+  <EntityType Name="tblKullanici">
+    <Key>
+      <PropertyRef Name="KullaniciID" />
+    </Key>
+    <Property Name="KullaniciID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Sifre" Type="String" MaxLength="16" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Adres" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tblFavoriler" Relationship="Self.FK_tblFavoriler_tblKullanici" FromRole="tblKullanici" ToRole="tblFavoriler" />
+    <NavigationProperty Name="tblSatinAlinanlar" Relationship="Self.FK_tblSatinAlinanlar_tblKullanici" FromRole="tblKullanici" ToRole="tblSatinAlinanlar" />
+    <NavigationProperty Name="tblSepet" Relationship="HizliProjeModel.FK_tblSepet_tblKullanici" FromRole="tblKullanici" ToRole="tblSepet" />
+  </EntityType>
+  <EntityType Name="tblSatinAlinanlar">
+    <Key>
+      <PropertyRef Name="SatinAlinanID" />
+    </Key>
+    <Property Name="SatinAlinanID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MusteriID" Type="Int32" Nullable="false" />
+    <Property Name="UrunID" Type="Int32" Nullable="false" />
+    <Property Name="SatinAlmaAdedi" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblKullanici" Relationship="Self.FK_tblSatinAlinanlar_tblKullanici" FromRole="tblSatinAlinanlar" ToRole="tblKullanici" />
+    <NavigationProperty Name="tblKitap" Relationship="HizliProjeModel.FK_tblSatinAlinanlar_tblKitap" FromRole="tblSatinAlinanlar" ToRole="tblKitap" />
+  </EntityType>
+  <EntityType Name="tblZiyaretci">
+    <Key>
+      <PropertyRef Name="ZiyaretciID" />
+    </Key>
+    <Property Name="ZiyaretciID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ZiyaretciMAC" Type="String" MaxLength="12" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblSepet" Relationship="HizliProjeModel.FK_tblSepet_tblZiyaretci" FromRole="tblZiyaretci" ToRole="tblSepet" />
+  </EntityType>
+  <Association Name="FK_tblFavoriler_tblKullanici">
+    <End Role="tblKullanici" Type="Self.tblKullanici" Multiplicity="1" />
+    <End Role="tblFavoriler" Type="Self.tblFavoriler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKullanici">
+        <PropertyRef Name="KullaniciID" />
+      </Principal>
+      <Dependent Role="tblFavoriler">
+        <PropertyRef Name="MusteriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSatinAlinanlar_tblKullanici">
+    <End Role="tblKullanici" Type="Self.tblKullanici" Multiplicity="1" />
+    <End Role="tblSatinAlinanlar" Type="Self.tblSatinAlinanlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKullanici">
+        <PropertyRef Name="KullaniciID" />
+      </Principal>
+      <Dependent Role="tblSatinAlinanlar">
+        <PropertyRef Name="MusteriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HizliProjeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="tblAdmin" EntityType="Self.tblAdmin" />
+    <EntitySet Name="tblFavoriler" EntityType="Self.tblFavoriler" />
+    <EntitySet Name="tblKullanici" EntityType="Self.tblKullanici" />
+    <EntitySet Name="tblSatinAlinanlar" EntityType="Self.tblSatinAlinanlar" />
+    <EntitySet Name="tblZiyaretci" EntityType="Self.tblZiyaretci" />
+    <AssociationSet Name="FK_tblFavoriler_tblKullanici" Association="Self.FK_tblFavoriler_tblKullanici">
+      <End Role="tblKullanici" EntitySet="tblKullanici" />
+      <End Role="tblFavoriler" EntitySet="tblFavoriler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSatinAlinanlar_tblKullanici" Association="Self.FK_tblSatinAlinanlar_tblKullanici">
+      <End Role="tblKullanici" EntitySet="tblKullanici" />
+      <End Role="tblSatinAlinanlar" EntitySet="tblSatinAlinanlar" />
+    </AssociationSet>
+    <EntitySet Name="tblSepet" EntityType="HizliProjeModel.tblSepet" />
+    <AssociationSet Name="FK_tblSepet_tblKullanici" Association="HizliProjeModel.FK_tblSepet_tblKullanici">
+      <End Role="tblKullanici" EntitySet="tblKullanici" />
+      <End Role="tblSepet" EntitySet="tblSepet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSepet_tblZiyaretci" Association="HizliProjeModel.FK_tblSepet_tblZiyaretci">
+      <End Role="tblZiyaretci" EntitySet="tblZiyaretci" />
+      <End Role="tblSepet" EntitySet="tblSepet" />
+    </AssociationSet>
+    <EntitySet Name="tblKitap" EntityType="HizliProjeModel.tblKitap" />
+    <EntitySet Name="tblYayinEvi" EntityType="HizliProjeModel.tblYayinEvi" />
+    <AssociationSet Name="FK_tblFavoriler_tblKitap" Association="HizliProjeModel.FK_tblFavoriler_tblKitap">
+      <End Role="tblKitap" EntitySet="tblKitap" />
+      <End Role="tblFavoriler" EntitySet="tblFavoriler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblKitap_tblYayinEvi" Association="HizliProjeModel.FK_tblKitap_tblYayinEvi">
+      <End Role="tblYayinEvi" EntitySet="tblYayinEvi" />
+      <End Role="tblKitap" EntitySet="tblKitap" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSatinAlinanlar_tblKitap" Association="HizliProjeModel.FK_tblSatinAlinanlar_tblKitap">
+      <End Role="tblKitap" EntitySet="tblKitap" />
+      <End Role="tblSatinAlinanlar" EntitySet="tblSatinAlinanlar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSepet_tblKitap" Association="HizliProjeModel.FK_tblSepet_tblKitap">
+      <End Role="tblKitap" EntitySet="tblKitap" />
+      <End Role="tblSepet" EntitySet="tblSepet" />
+    </AssociationSet>
+    <EntitySet Name="tblKitapTur" EntityType="HizliProjeModel.tblKitapTur" />
+    <AssociationSet Name="FK_tblKitap_tblKitapTur" Association="HizliProjeModel.FK_tblKitap_tblKitapTur">
+      <End Role="tblKitapTur" EntitySet="tblKitapTur" />
+      <End Role="tblKitap" EntitySet="tblKitap" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tblSepet">
+    <Key>
+      <PropertyRef Name="SepetId" />
+    </Key>
+    <Property Name="SepetId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MusteriId" Type="Int32" Nullable="false" />
+    <Property Name="UrunId" Type="Int32" Nullable="false" />
+    <Property Name="SepettekiAdet" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblKullanici" Relationship="HizliProjeModel.FK_tblSepet_tblKullanici" FromRole="tblSepet" ToRole="tblKullanici" />
+    <NavigationProperty Name="tblZiyaretci" Relationship="HizliProjeModel.FK_tblSepet_tblZiyaretci" FromRole="tblSepet" ToRole="tblZiyaretci" />
+    <NavigationProperty Name="tblKitap" Relationship="HizliProjeModel.FK_tblSepet_tblKitap" FromRole="tblSepet" ToRole="tblKitap" />
+  </EntityType>
+  <Association Name="FK_tblSepet_tblKullanici">
+    <End Type="HizliProjeModel.tblKullanici" Role="tblKullanici" Multiplicity="1" />
+    <End Type="HizliProjeModel.tblSepet" Role="tblSepet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKullanici">
+        <PropertyRef Name="KullaniciID" />
+      </Principal>
+      <Dependent Role="tblSepet">
+        <PropertyRef Name="MusteriId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSepet_tblZiyaretci">
+    <End Type="HizliProjeModel.tblZiyaretci" Role="tblZiyaretci" Multiplicity="1" />
+    <End Type="HizliProjeModel.tblSepet" Role="tblSepet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblZiyaretci">
+        <PropertyRef Name="ZiyaretciID" />
+      </Principal>
+      <Dependent Role="tblSepet">
+        <PropertyRef Name="MusteriId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="tblKitap">
+    <Key>
+      <PropertyRef Name="KitapID" />
+    </Key>
+    <Property Name="KitapID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ISBNNo" Type="String" Nullable="false" MaxLength="13" FixedLength="false" Unicode="true" />
+    <Property Name="KitapAdi" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Yazar" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="YayinEviID" Type="Int32" Nullable="false" />
+    <Property Name="SayfaSayisi" Type="Int32" Nullable="false" />
+    <Property Name="BasimYili" Type="Int32" Nullable="false" />
+    <Property Name="Fiyati" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="KapakResmi" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Aciklama" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Adet" Type="Int32" Nullable="false" />
+    <Property Name="StokDurumu" Type="Boolean" />
+    <Property Name="TurID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblFavoriler" Relationship="HizliProjeModel.FK_tblFavoriler_tblKitap" FromRole="tblKitap" ToRole="tblFavoriler" />
+    <NavigationProperty Name="tblYayinEvi" Relationship="HizliProjeModel.FK_tblKitap_tblYayinEvi" FromRole="tblKitap" ToRole="tblYayinEvi" />
+    <NavigationProperty Name="tblSatinAlinanlar" Relationship="HizliProjeModel.FK_tblSatinAlinanlar_tblKitap" FromRole="tblKitap" ToRole="tblSatinAlinanlar" />
+    <NavigationProperty Name="tblSepet" Relationship="HizliProjeModel.FK_tblSepet_tblKitap" FromRole="tblKitap" ToRole="tblSepet" />
+    <NavigationProperty Name="tblKitapTur" Relationship="HizliProjeModel.FK_tblKitap_tblKitapTur" FromRole="tblKitap" ToRole="tblKitapTur" />
+  </EntityType>
+  <EntityType Name="tblYayinEvi">
+    <Key>
+      <PropertyRef Name="YayinEviID" />
+    </Key>
+    <Property Name="YayinEviID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="YayinEviAdi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblKitap" Relationship="HizliProjeModel.FK_tblKitap_tblYayinEvi" FromRole="tblYayinEvi" ToRole="tblKitap" />
+  </EntityType>
+  <Association Name="FK_tblFavoriler_tblKitap">
+    <End Type="HizliProjeModel.tblKitap" Role="tblKitap" Multiplicity="1" />
+    <End Type="HizliProjeModel.tblFavoriler" Role="tblFavoriler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKitap">
+        <PropertyRef Name="KitapID" />
+      </Principal>
+      <Dependent Role="tblFavoriler">
+        <PropertyRef Name="UrunID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblKitap_tblYayinEvi">
+    <End Type="HizliProjeModel.tblYayinEvi" Role="tblYayinEvi" Multiplicity="1" />
+    <End Type="HizliProjeModel.tblKitap" Role="tblKitap" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblYayinEvi">
+        <PropertyRef Name="YayinEviID" />
+      </Principal>
+      <Dependent Role="tblKitap">
+        <PropertyRef Name="YayinEviID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSatinAlinanlar_tblKitap">
+    <End Type="HizliProjeModel.tblKitap" Role="tblKitap" Multiplicity="1" />
+    <End Type="HizliProjeModel.tblSatinAlinanlar" Role="tblSatinAlinanlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKitap">
+        <PropertyRef Name="KitapID" />
+      </Principal>
+      <Dependent Role="tblSatinAlinanlar">
+        <PropertyRef Name="UrunID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSepet_tblKitap">
+    <End Type="HizliProjeModel.tblKitap" Role="tblKitap" Multiplicity="1" />
+    <End Type="HizliProjeModel.tblSepet" Role="tblSepet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKitap">
+        <PropertyRef Name="KitapID" />
+      </Principal>
+      <Dependent Role="tblSepet">
+        <PropertyRef Name="UrunId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="tblKitapTur">
+    <Key>
+      <PropertyRef Name="TurID" />
+    </Key>
+    <Property Name="TurID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TurAdi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblKitap" Relationship="HizliProjeModel.FK_tblKitap_tblKitapTur" FromRole="tblKitapTur" ToRole="tblKitap" />
+  </EntityType>
+  <Association Name="FK_tblKitap_tblKitapTur">
+    <End Type="HizliProjeModel.tblKitapTur" Role="tblKitapTur" Multiplicity="1" />
+    <End Type="HizliProjeModel.tblKitap" Role="tblKitap" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKitapTur">
+        <PropertyRef Name="TurID" />
+      </Principal>
+      <Dependent Role="tblKitap">
+        <PropertyRef Name="TurID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

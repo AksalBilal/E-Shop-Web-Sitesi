@@ -1,0 +1,35 @@
+﻿@model Noktalı_Virgül.Models.ViewModels.ForgotPasswordViewModel
+@{
+    ViewBag.Title = "SifremiUnuttum";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<script src="http://code.jquery.com/jquery-1.11.0.js"
+        integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw="
+        crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function myfunction() {
+        $(".bildirim").fadeOut(8000);
+    });
+</script>
+    <div class="container">
+        @if (ViewBag.Success == true)
+        {
+            <p class="bildirim"><strong style="background-color:orange">Şifreniz Mailinize Başarıyla Gönderildi</strong></p>
+        }
+        @using (Html.BeginForm("SifremiUnuttum", "Login", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div id="Login">
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Sisteme Kayıtlı olduğunuz Mail adresiniz" })
+                    @Html.ValidationMessageFor(m => m.Email)
+                </div>
+
+                <button type="submit" class="btn btn-primary">Gönder</button>
+
+            </div>
+        }
+    </div>
+

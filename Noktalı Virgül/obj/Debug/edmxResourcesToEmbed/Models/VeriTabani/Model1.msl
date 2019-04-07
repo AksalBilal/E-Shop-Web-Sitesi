@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HizliProjeModelStoreContainer" CdmEntityContainer="HizliProjeEntities9">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="HizliProjeModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblAdmin">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblAdmin">
+        <MappingFragment StoreEntitySet="tblAdmin">
+          <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblFavoriler">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblFavoriler">
+        <MappingFragment StoreEntitySet="tblFavoriler">
+          <ScalarProperty Name="FavoriID" ColumnName="FavoriID" />
+          <ScalarProperty Name="MusteriID" ColumnName="MusteriID" />
+          <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblKitap">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblKitap">
+        <MappingFragment StoreEntitySet="tblKitap">
+          <ScalarProperty Name="KitapID" ColumnName="KitapID" />
+          <ScalarProperty Name="ISBNNo" ColumnName="ISBNNo" />
+          <ScalarProperty Name="KitapAdi" ColumnName="KitapAdi" />
+          <ScalarProperty Name="Yazar" ColumnName="Yazar" />
+          <ScalarProperty Name="YayinEviID" ColumnName="YayinEviID" />
+          <ScalarProperty Name="SayfaSayisi" ColumnName="SayfaSayisi" />
+          <ScalarProperty Name="BasimYili" ColumnName="BasimYili" />
+          <ScalarProperty Name="Fiyati" ColumnName="Fiyati" />
+          <ScalarProperty Name="KapakResmi" ColumnName="KapakResmi" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="Adet" ColumnName="Adet" />
+          <ScalarProperty Name="StokDurumu" ColumnName="StokDurumu" />
+          <ScalarProperty Name="TurID" ColumnName="TurID" />
+          <ScalarProperty Name="SilindiMi" ColumnName="SilindiMi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblKitapTur">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblKitapTur">
+        <MappingFragment StoreEntitySet="tblKitapTur">
+          <ScalarProperty Name="TurID" ColumnName="TurID" />
+          <ScalarProperty Name="TurAdi" ColumnName="TurAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblKullanici">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblKullanici">
+        <MappingFragment StoreEntitySet="tblKullanici">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="KayitOlmaTarihi" ColumnName="KayitOlmaTarihi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMesaj">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblMesaj">
+        <MappingFragment StoreEntitySet="tblMesaj">
+          <ScalarProperty Name="MesajId" ColumnName="MesajId" />
+          <ScalarProperty Name="GonderciTipi" ColumnName="GonderciTipi" />
+          <ScalarProperty Name="AdSoyad" ColumnName="AdSoyad" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Konu" ColumnName="Konu" />
+          <ScalarProperty Name="Mesaj" ColumnName="Mesaj" />
+          <ScalarProperty Name="OkunduMu" ColumnName="OkunduMu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSatinAlinanlar">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblSatinAlinanlar">
+        <MappingFragment StoreEntitySet="tblSatinAlinanlar">
+          <ScalarProperty Name="SatinAlinanID" ColumnName="SatinAlinanID" />
+          <ScalarProperty Name="MusteriID" ColumnName="MusteriID" />
+          <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+          <ScalarProperty Name="SatinAlmaAdedi" ColumnName="SatinAlmaAdedi" />
+          <ScalarProperty Name="UrunBirimFiyati" ColumnName="UrunBirimFiyati" />
+          <ScalarProperty Name="ToplamFiyat" ColumnName="ToplamFiyat" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="SatinAlmaTarihi" ColumnName="SatinAlmaTarihi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSepet">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblSepet">
+        <MappingFragment StoreEntitySet="tblSepet">
+          <ScalarProperty Name="SepetId" ColumnName="SepetId" />
+          <ScalarProperty Name="ZiyaretciId" ColumnName="ZiyaretciId" />
+          <ScalarProperty Name="KullaniciId" ColumnName="KullaniciId" />
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="SepettekiAdet" ColumnName="SepettekiAdet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblYayinEvi">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblYayinEvi">
+        <MappingFragment StoreEntitySet="tblYayinEvi">
+          <ScalarProperty Name="YayinEviID" ColumnName="YayinEviID" />
+          <ScalarProperty Name="YayinEviAdi" ColumnName="YayinEviAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblZiyaretci">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblZiyaretci">
+        <MappingFragment StoreEntitySet="tblZiyaretci">
+          <ScalarProperty Name="ZiyaretciID" ColumnName="ZiyaretciID" />
+          <ScalarProperty Name="ZiyaretciMAC" ColumnName="ZiyaretciMAC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionName="HizliProjeModel.Store.FN_AlanlarinKodu" FunctionImportName="FN_AlanlarinKodu">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HizliProjeModel.FN_AlanlarinKodu_Result">
+          <ScalarProperty Name="MusteriID" ColumnName="MusteriID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionName="HizliProjeModel.Store.FN_BunuAlanBunlariAldi" FunctionImportName="FN_BunuAlanBunlariAldi">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HizliProjeModel.FN_BunuAlanBunlariAldi_Result">
+          <ScalarProperty Name="KitapID" ColumnName="KitapID" />
+          <ScalarProperty Name="KitapAdi" ColumnName="KitapAdi" />
+          <ScalarProperty Name="StokDurumu" ColumnName="StokDurumu" />
+          <ScalarProperty Name="Fiyati" ColumnName="Fiyati" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="deneme" FunctionName="HizliProjeModel.Store.deneme">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HizliProjeModel.deneme_Result">
+          <ScalarProperty Name="KitapID" ColumnName="KitapID" />
+          <ScalarProperty Name="KacAdetSatildi" ColumnName="KacAdetSatildi" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EnCokSatisYapanKategori" FunctionName="HizliProjeModel.Store.EnCokSatisYapanKategori">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HizliProjeModel.EnCokSatisYapanKategori_Result">
+          <ScalarProperty Name="TurAdi" ColumnName="TurAdi" />
+          <ScalarProperty Name="adet" ColumnName="adet" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Encoksatisyapilanurunler" FunctionName="HizliProjeModel.Store.Encoksatisyapilanurunler">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HizliProjeModel.Encoksatisyapilanurunler_Result">
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="KitapAdi" ColumnName="KitapAdi" />
+          <ScalarProperty Name="UrunBirimFiyati" ColumnName="UrunBirimFiyati" />
+          <ScalarProperty Name="adet" ColumnName="adet" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EnCokSepeteEklenenUrunler" FunctionName="HizliProjeModel.Store.EnCokSepeteEklenenUrunler">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HizliProjeModel.EnCokSepeteEklenenUrunler_Result">
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="KitapAdi" ColumnName="KitapAdi" />
+          <ScalarProperty Name="SepettekiAdet" ColumnName="SepettekiAdet" />
+          <ScalarProperty Name="adet" ColumnName="adet" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GunlukKayitOlanKisiSayisi" FunctionName="HizliProjeModel.Store.GunlukKayitOlanKisiSayisi">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HizliProjeModel.GunlukKayitOlanKisiSayisi_Result">
+          <ScalarProperty Name="KayitOlmaTarihi" ColumnName="KayitOlmaTarihi" />
+          <ScalarProperty Name="adet" ColumnName="adet" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GunlukKitapSatisSayisi" FunctionName="HizliProjeModel.Store.GunlukKitapSatisSayisi">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HizliProjeModel.GunlukKitapSatisSayisi_Result">
+          <ScalarProperty Name="SatinAlmaTarihi" ColumnName="SatinAlmaTarihi" />
+          <ScalarProperty Name="adet" ColumnName="adet" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ister" FunctionName="HizliProjeModel.Store.ister">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HizliProjeModel.ister_Result">
+          <ScalarProperty Name="KitapID" ColumnName="KitapID" />
+          <ScalarProperty Name="KitapAdi" ColumnName="KitapAdi" />
+          <ScalarProperty Name="StokDurumu" ColumnName="StokDurumu" />
+          <ScalarProperty Name="Fiyati" ColumnName="Fiyati" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="HizliProjeModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="HizliProjeModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="HizliProjeModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="HizliProjeModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HizliProjeModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="HizliProjeModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HizliProjeModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="HizliProjeModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="HizliProjeModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="ToplamKitapSatis" FunctionName="HizliProjeModel.Store.ToplamKitapSatis" />
+    <FunctionImportMapping FunctionImportName="ToplamKitapSatisGunluk" FunctionName="HizliProjeModel.Store.ToplamKitapSatisGunluk" />
+    <FunctionImportMapping FunctionImportName="ToplamKullaniciKaydi" FunctionName="HizliProjeModel.Store.ToplamKullaniciKaydi" />
+    <EntitySetMapping Name="tblPromosyon">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblPromosyon">
+        <MappingFragment StoreEntitySet="tblPromosyon">
+          <ScalarProperty Name="IndirimOrani" ColumnName="IndirimOrani" />
+          <ScalarProperty Name="TumUrunler" ColumnName="TumUrunler" />
+          <ScalarProperty Name="KategoriId" ColumnName="KategoriId" />
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="PromosyonId" ColumnName="PromosyonId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

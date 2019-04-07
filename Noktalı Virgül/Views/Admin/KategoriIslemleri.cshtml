@@ -1,0 +1,68 @@
+﻿@model List<tblKitapTur>
+@using Noktalı_Virgül.Models.VeriTabani
+@{
+    ViewBag.Title = "KategoriIslemleri";
+    Layout = "~/Views/Shared/_Layout4.cshtml";
+}
+
+<script src="http://code.jquery.com/jquery-1.11.0.js"
+        integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw="
+        crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function myfunction() {
+
+        $(".sil").click(function () {
+            var uid = $(this).attr("name");
+            $.ajax(
+                {
+                    type: "POST",
+                    url: "/Admin/KategoriSil",
+                    data: { id: uid },
+                    success: function (gelenveri) {
+                        if (gelenveri == "var") {
+                            alert("Bu türden kitaplar mevcut Lütfen önce Kitapları Silin!");
+                        }
+                       
+                        else {
+                            window.location = "/Admin/KategoriIslemleri"
+                        }
+
+                    },
+                    error: function () {
+                    }
+                });
+
+        });
+    });
+</script>
+
+<div class="container">
+    <h2><b>Kategori İşlemleri</b></h2>
+
+    <a class="btn btn-success" href="/Admin/KategoriGuncelleme/0">Kategori Ekle</a>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th class="col-md-6">Kategori Adı</th>
+                <th class="col-md-1">Gücelleme</th>
+                <th class="col-md-1">Kategori Silme</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.TurAdi</td>
+                    <td><a class="btn btn-primary guncelle" id="@item.TurID" href="/Admin/KategoriGuncelleme/@item.TurID">Güncelle</a></td>
+                    <td> <a class="btn btn-warning sil" name="@item.TurID">Sil</a></td>
+                    <br />
+                </tr>
+            }
+        </tbody>
+    </table>
+    <body>
+    </body>
+
+
+</div>

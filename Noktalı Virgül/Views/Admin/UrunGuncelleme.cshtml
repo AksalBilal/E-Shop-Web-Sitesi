@@ -1,0 +1,193 @@
+﻿@model Noktalı_Virgül.Models.ViewModels.AddProductViewModel
+@using Noktalı_Virgül.Models.VeriTabani
+@{
+    ViewBag.Title = "UrunGuncelleme";
+    Layout = "~/Views/Shared/_Layout4.cshtml";
+
+}
+<script src="http://code.jquery.com/jquery-1.11.0.js"
+        integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw="
+        crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function myfunction() {
+        $(".mesaj").fadeOut(8000);
+    });
+    function isNumberKey(evt) {
+
+        var charCode = (evt.which) ? evt.which : event.keyCode
+        if (charCode > 31 && (charCode != 44 && (charCode < 48 || charCode > 57))) {
+            return false;
+        }
+        return true;
+    }
+    function isNumberKey2(evt) {
+        var charCode = (evt.which) ? evt.which : event.keyCode
+        if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+            return false;
+        }
+        return true;
+    }
+    
+       
+   
+</script>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 col-sm-offset-1">
+            @if (ViewBag.Mesaj == 1)
+            {
+                <p class="mesaj">Girilen Verilerde Hatalar var!</p>
+            }
+            else if (ViewBag.Mesaj == 2)
+            {
+                <p class="mesaj">Aynı Üründen Stokta mevcut bulunmakta sadece adeti arttırıldı!</p>
+            }
+            else if(ViewBag.Mesaj==3)
+            {
+                <p class="mesaj">Ürün sisteme Eklenemedi!</p>
+            }
+
+            @*<form method="post" action="/Admin/UrunGuncelleme/@Model.KitapID">
+                <div id="Login">
+                    <div class="form-group">
+                        @Html.TextBox("ISBN", new { @class = "form-control", placeholder = "ISBN NO", @MaxLenght="50", required="required"})
+                        <input type="text" id="tur" class="turAdi" value="@Model.ISBNNo" placeholder="ISBN No" required maxlength="13" />
+                        <input type="text" id="tur" class="turAdi" value="@Model.KitapAdi" placeholder="Kitap Adı" required maxlength="100" />
+                        <input type="text" id="tur" class="turAdi" value="@Model.Yazar" placeholder="Yazar" required maxlength="50" />
+                        <input type="text" id="tur" class="turAdi" value="@Model.tblYayinEvi.YayinEviAdi" placeholder="Yayın Evi" required maxlength="50" />
+                        <input type="text" id="tur" onkeypress="return isNumberKey2(event)" class="turAdi" value="@Model.SayfaSayisi" placeholder="Sayfa Sayısı" required maxlength="10" />
+                        <input type="text" id="tur" onkeypress="return isNumberKey2(event)" class="turAdi" value="@Model.BasimYili" placeholder="Basım Yılı" required size="4" minlength="3" />
+                        <input type="text" id="tur" onkeypress="return isNumberKey(event)" class="turAdi" value="@Model.Fiyati" placeholder="Fiyatı" required maxlength="20" />
+                        <textarea rows="4" cols="50" placeholder="Açıklama">@Model.Aciklama</textarea>
+                        <input type="text" id="tur" onkeypress="return isNumberKey2(event)" class="turAdi" value="@Model.Adet" placeholder="Adet" required maxlength="10" />
+                        <input type="text" id="tur" class="turAdi" value="@Model.tblKitapTur.TurAdi" placeholder="Tur Adı" required maxlength="50" />
+                    </div>
+                    <button type="submit" class="btn btn-primary guncelle" name="@Model.KitapID">Güncelle</button>
+
+                </div>
+                </form>*@
+            @if (Model.tblKitap.KitapID != 0)
+            {
+                <form method="post" action="/Admin/UrunGuncelleme2/@Model.tblKitap.KitapID">
+
+                    @using (Html.BeginForm("UrunGuncelleme2", "Admin", FormMethod.Post))
+                    {
+
+                        @Html.AntiForgeryToken()
+
+
+                        <!--sign up form-->
+                        <div id="SignUp">
+                            <div class="form-group">
+                                @Html.TextBoxFor(m => m.ISBNno, new { @class = "form-control", placeholder = "ISBN No", Value = Model.tblKitap.ISBNNo })
+                                @Html.ValidationMessageFor(m => m.ISBNno)
+                            </div>
+                            <div class="form-group">
+                                @Html.TextBoxFor(m => m.KitapAdi, new { @class = "form-control", placeholder = "Kitap Adı", @Value = Model.tblKitap.KitapAdi })
+                                @Html.ValidationMessageFor(m => m.KitapAdi)
+                            </div>
+                            <div class="form-group">
+                                @Html.TextBoxFor(m => m.YayinEvi, new { @class = "form-control", placeholder = "Yayın Evi", @Value = Model.tblKitap.tblYayinEvi.YayinEviAdi })
+                                @Html.ValidationMessageFor(m => m.YayinEvi)
+
+                            </div>
+                            <div class="form-group">
+                                @Html.TextBoxFor(m => m.Yazar, new { @class = "form-control", placeholder = "Yazar", @Value = Model.tblKitap.Yazar })
+                                @Html.ValidationMessageFor(m => m.Yazar)
+                            </div>
+                            <div class="form-group">
+                                @Html.TextBoxFor(m => m.SayfaSayısı, new { @class = "form-control", placeholder = "Sayfa Sayısı", @Value = Model.tblKitap.SayfaSayisi, onkeypress = "isNumberKey2(event)" })
+                                @Html.ValidationMessageFor(m => m.SayfaSayısı)
+                            </div>
+                            <div class="form-group">
+                                @Html.TextBoxFor(m => m.BasımYili, new { @class = "form-control", placeholder = "Basım Yılı", @Value = Model.tblKitap.BasimYili })
+                                @Html.ValidationMessageFor(m => m.BasımYili)
+                            </div>
+                            <div class="form-group">
+                                @Html.TextBoxFor(m => m.Fiyatı, new { @class = "form-control", placeholder = "Fiyatı", @Value = Model.tblKitap.Fiyati })
+                                @Html.ValidationMessageFor(m => m.Fiyatı)
+                            </div>
+                            <div class="form-group">
+                                @Html.TextBoxFor(m => m.Adet, new { @class = "form-control", placeholder = "Adet", @Value = Model.tblKitap.Adet })
+                                @Html.ValidationMessageFor(m => m.Adet)
+                            </div>
+                            <div class="form-group">
+                                @Html.TextBoxFor(m => m.TurAdi, new { @class = "form-control", placeholder = "Tür Adı", @Value = Model.tblKitap.tblKitapTur.TurAdi })
+                                @Html.ValidationMessageFor(m => m.TurAdi)
+
+                            </div>
+                            <div class="form-group">
+                                @Html.TextBoxFor(m => m.Aciklama, new { @class = "form-control", placeholder = "Açıklama", Value = Model.tblKitap.Aciklama })
+                                @Html.ValidationMessageFor(m => m.Aciklama)
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Kaydet</button>
+                        </div>
+                    }
+
+                </form>
+            }
+            else
+            {
+
+                using (Html.BeginForm("UrunEkle", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+
+                    @Html.AntiForgeryToken()
+
+
+                    <!--sign up form-->
+                    <div id="SignUp">
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.ISBNno, new { @class = "form-control", placeholder = "ISBN No", Value = Model.tblKitap.ISBNNo })
+                            @Html.ValidationMessageFor(m => m.ISBNno)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.KitapAdi, new { @class = "form-control", placeholder = "Kitap Adı", @Value = Model.tblKitap.KitapAdi })
+                            @Html.ValidationMessageFor(m => m.KitapAdi)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.YayinEvi, new { @class = "form-control", placeholder = "Yayın Evi" })
+                            @Html.ValidationMessageFor(m => m.YayinEvi)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.Yazar, new { @class = "form-control", placeholder = "Yazar", @Value = Model.tblKitap.Yazar })
+                            @Html.ValidationMessageFor(m => m.Yazar)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.SayfaSayısı, new { @class = "form-control", placeholder = "Sayfa Sayısı", @Value = Model.tblKitap.SayfaSayisi, onkeypress = "isNumberKey2(event)" })
+                            @Html.ValidationMessageFor(m => m.SayfaSayısı)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.BasımYili, new { @class = "form-control", placeholder = "Basım Yılı", @Value = Model.tblKitap.BasimYili })
+                            @Html.ValidationMessageFor(m => m.BasımYili)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.Fiyatı, new { @class = "form-control", placeholder = "Fiyatı", @Value = Model.tblKitap.Fiyati })
+                            @Html.ValidationMessageFor(m => m.Fiyatı)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.Adet, new { @class = "form-control", placeholder = "Adet", @Value = Model.tblKitap.Adet })
+                            @Html.ValidationMessageFor(m => m.Adet)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.TurAdi, new { @class = "form-control", placeholder = "Tür Adı" })
+                            @Html.ValidationMessageFor(m => m.TurAdi)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.Aciklama, new { @class = "form-control", placeholder = "Açıklama", Value = Model.tblKitap.Aciklama })
+                            @Html.ValidationMessageFor(m => m.Aciklama)
+                        </div>
+                        <label>@Html.LabelFor(m => m.tblKitap.KapakResmi)</label>
+
+                        <label for="file">Upload Image:</label>
+                        <input type="file" name="file" id="file" style="width: 100%;" />
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                    </div>
+                }
+
+            }
+        </div>
+    </div>
+</div>

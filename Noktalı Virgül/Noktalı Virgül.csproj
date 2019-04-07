@@ -1,0 +1,582 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3BF030D0-1075-42E3-887F-71E3E9A0BFF4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Noktalı_Virgül</RootNamespace>
+    <AssemblyName>Noktalı Virgül</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.4\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.4\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.4\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.min2.css" />
+    <Content Include="Content\bootstrap-theme2.css" />
+    <Content Include="Content\bootstrap.min2.css" />
+    <Content Include="Content\bootstrap2.css" />
+    <Content Include="Content\css\animate.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\bootstrap.min2.css" />
+    <Content Include="Content\css\bootstrap1.css" />
+    <Content Include="Content\css\default-css2.css" />
+    <Content Include="Content\css\demo2.css" />
+    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\font-awesome.min2.css" />
+    <Content Include="Content\css\ie7-2.css" />
+    <Content Include="Content\css\main.css" />
+    <Content Include="Content\css\metisMenu2.css" />
+    <Content Include="Content\css\owl.carousel.min2.css" />
+    <Content Include="Content\css\prettyPhoto.css" />
+    <Content Include="Content\css\price-range.css" />
+    <Content Include="Content\css\responsive.css" />
+    <Content Include="Content\css\responsive2.css" />
+    <Content Include="Content\css\slicknav.min2.css" />
+    <Content Include="Content\css\style1.css" />
+    <Content Include="Content\css\styles2.css" />
+    <Content Include="Content\css\themify-icons2.css" />
+    <Content Include="Content\css\typography2.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\images\404\404.png" />
+    <Content Include="Content\images\admin\author-img1.jpg" />
+    <Content Include="Content\images\admin\author-img2.jpg" />
+    <Content Include="Content\images\admin\author-img3.jpg" />
+    <Content Include="Content\images\admin\author-img4.jpg" />
+    <Content Include="Content\images\admin\avatar.png" />
+    <Content Include="Content\images\admin\card-img1.jpg" />
+    <Content Include="Content\images\admin\card-img10.jpg" />
+    <Content Include="Content\images\admin\card-img2.jpg" />
+    <Content Include="Content\images\admin\card-img3.jpg" />
+    <Content Include="Content\images\admin\card-img4.jpg" />
+    <Content Include="Content\images\admin\card-img5.jpg" />
+    <Content Include="Content\images\admin\card-img6.jpg" />
+    <Content Include="Content\images\admin\card-img7.jpg" />
+    <Content Include="Content\images\admin\card-img8.jpg" />
+    <Content Include="Content\images\admin\card-img9.jpg" />
+    <Content Include="Content\images\admin\icon1.png" />
+    <Content Include="Content\images\admin\icon2.png" />
+    <Content Include="Content\images\admin\icon3.png" />
+    <Content Include="Content\images\admin\icon4.png" />
+    <Content Include="Content\images\admin\loader.gif" />
+    <Content Include="Content\images\admin\logo.png" />
+    <Content Include="Content\images\admin\logo2.png" />
+    <Content Include="Content\images\admin\media1.jpg" />
+    <Content Include="Content\images\admin\media2.jpg" />
+    <Content Include="Content\images\admin\post-thumb1.jpg" />
+    <Content Include="Content\images\admin\post-thumb2.jpg" />
+    <Content Include="Content\images\admin\singin-bg.jpg" />
+    <Content Include="Content\images\admin\team-author1.jpg" />
+    <Content Include="Content\images\admin\team-author2.jpg" />
+    <Content Include="Content\images\admin\team-author3.jpg" />
+    <Content Include="Content\images\admin\team-author4.jpg" />
+    <Content Include="Content\images\admin\team-author5.jpg" />
+    <Content Include="Content\images\admin\trends-down-icon.png" />
+    <Content Include="Content\images\admin\trends-up-icon.png" />
+    <Content Include="Content\images\admin\triangle-down.png" />
+    <Content Include="Content\images\admin\triangle-up.png" />
+    <Content Include="Content\images\blog\blog-one.jpg" />
+    <Content Include="Content\images\blog\blog-three.jpg" />
+    <Content Include="Content\images\blog\blog-two.jpg" />
+    <Content Include="Content\images\blog\man-four.jpg" />
+    <Content Include="Content\images\blog\man-one.jpg" />
+    <Content Include="Content\images\blog\man-three.jpg" />
+    <Content Include="Content\images\blog\man-two.jpg" />
+    <Content Include="Content\images\blog\socials.png" />
+    <Content Include="Content\images\cart\one.png" />
+    <Content Include="Content\images\cart\three.png" />
+    <Content Include="Content\images\cart\two.png" />
+    <Content Include="Content\images\home\Anasayfalogo.png" />
+    <Content Include="Content\images\home\bg_border.png" />
+    <Content Include="Content\images\kitaplar\0000000202092-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000202096-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000204001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000205644-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000210422-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000223943-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000244198-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000288315-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000292340-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000326527-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000360167-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000366774-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000374251-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000408263-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000416798-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000420296-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000427673-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000435157-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000562120-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000569647-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000577529-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000602009-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000621380-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000627661-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000631604-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000639823-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000651705-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000664840-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000667288-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000671481-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000682357-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000685711-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000688766-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000689348-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000689370-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000689415-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000692600-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000694530-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000696777-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000707048-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000712213-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000720184-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000720264-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000722231-1.jpg" />
+    <Content Include="Content\images\kitaplar\0000000722235-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001686860001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001690412001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001690943001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001697336001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001700409001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001700410001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001701629001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001703443001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001706293001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001711511001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001711536001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001713058001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001718325001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001719848001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001720800001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001728102001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001730587001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001731195001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001731668001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001731669001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001734037001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001742391001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001742900001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001745339001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001748202001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001750930001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001751077001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001752440001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001752441001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001753466001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001755964001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001767352001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001776813001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001776864001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001780779001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001782495001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001782664001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001785120001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001786338001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001786988001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001791001001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001792765001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001792767001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001794000001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001794001001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001794926001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001795632001-1.jpg" />
+    <Content Include="Content\images\kitaplar\0001798552001-1.jpg" />
+    <Content Include="Content\images\kitaplar\da_vinci_sifresi.jpg" />
+    <Content Include="Content\images\kitaplar\dijital_kale.jpg" />
+    <Content Include="Content\images\kitaplar\ihanet_noktasi.jpg" />
+    <Content Include="Content\images\kitaplar\istanbul-kareli-oykuler-m.jpg" />
+    <Content Include="Content\images\kitaplar\kayip_sembol.jpg" />
+    <Content Include="Content\images\kitaplar\leyla_ile_mecnun.jpg" />
+    <Content Include="Content\images\home\map.png" />
+    <Content Include="Content\images\kitaplar\melekler_ve_seytanlar.jpg" />
+    <Content Include="Content\images\home\new.png" />
+    <Content Include="Content\images\home\sale.png" />
+    <Content Include="Content\images\home\searchicon.png" />
+    <Content Include="Content\images\product-details\1.jpg" />
+    <Content Include="Content\images\product-details\new.jpg" />
+    <Content Include="Content\images\product-details\rating.png" />
+    <Content Include="Content\images\product-details\share.png" />
+    <Content Include="Content\images\product-details\similar1.jpg" />
+    <Content Include="Content\images\product-details\similar2.jpg" />
+    <Content Include="Content\images\product-details\similar3.jpg" />
+    <Content Include="Content\images\shop\advertisement.jpg" />
+    <Content Include="Content\images\shop\product10.jpg" />
+    <Content Include="Content\images\shop\product11.jpg" />
+    <Content Include="Content\images\shop\product12.jpg" />
+    <Content Include="Content\images\shop\product7.jpg" />
+    <Content Include="Content\images\shop\product8.jpg" />
+    <Content Include="Content\images\shop\product9.jpg" />
+    <Content Include="Content\PagedList.css" />
+    <Content Include="Content\Site2.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\fontawesome-webfont2.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular2.svg" />
+    <Content Include="fonts\themify2.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Models\VeriTabani\Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\VeriTabani\Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+    <Content Include="Scripts\bar-chart2.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\bootstrap.min2.js" />
+    <Content Include="Scripts\bootstrap2.js" />
+    <Content Include="Scripts\ie7-2.js" />
+    <Content Include="Scripts\jquery-2.2.4.min2.js" />
+    <Content Include="Scripts\jquery-3.3.1-2.js" />
+    <Content Include="Scripts\jquery-3.3.1.intellisense2.js" />
+    <Content Include="Scripts\jquery-3.3.1.min2.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min2.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim2.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\jquery.prettyPhoto.js" />
+    <Content Include="Scripts\jquery.scrollUp.min.js" />
+    <Content Include="Scripts\jquery.slicknav.min2.js" />
+    <Content Include="Scripts\jquery.slimscroll.min2.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc2.js" />
+    <Content Include="Scripts\jquery.validate.min2.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min2.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive2.js" />
+    <Content Include="Scripts\jquery.validate2.js" />
+    <Content Include="Scripts\line-chart2.js" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\maps2.js" />
+    <Content Include="Scripts\metisMenu.min2.js" />
+    <Content Include="Scripts\modernizr-2.8.3-2.js" />
+    <Content Include="Scripts\modernizr-2.8.3.min2.js" />
+    <Content Include="Scripts\owl.carousel.min2.js" />
+    <Content Include="Scripts\pie-chart2.js" />
+    <Content Include="Scripts\plugins2.js" />
+    <Content Include="Scripts\popper.min2.js" />
+    <Content Include="Scripts\price-range.js" />
+    <Content Include="Scripts\scripts2.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\HesapController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\UrunController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DashBoard\EnCokSatilanUrunler.cs" />
+    <Compile Include="Models\DashBoard\EnCokSatisYapanKategori.cs" />
+    <Compile Include="Models\DashBoard\EnCokSepeteEklenenler.cs" />
+    <Compile Include="Models\DashBoard\GunlukKayitSayisi.cs" />
+    <Compile Include="Models\DashBoard\GunlukUrunSiparisSayisi.cs" />
+    <Compile Include="Models\VeriTabani\deneme_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\EnCokSatisYapanKategori_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\Encoksatisyapilanurunler_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\EnCokSepeteEklenenUrunler_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\FN_AlanlarinKodu_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\FN_BunuAlanBunlariAldi_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\GunlukKayitOlanKisiSayisi_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\GunlukKitapSatisSayisi_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\ister_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\sp_helpdiagrams_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\sysdiagrams.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\tblAdmin.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\tblFavoriler.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\tblKitap.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\tblKitapTur.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\tblKullanici.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\tblMesaj.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\tblPromosyon.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\tblSatinAlinanlar.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\tblSepet.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\tblYayinEvi.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VeriTabani\tblZiyaretci.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ViewModels\AccountViewModel.cs" />
+    <Compile Include="Models\ViewModels\AddProductViewModel.cs" />
+    <Compile Include="Models\ViewModels\ContactViewModel.cs" />
+    <Compile Include="Models\ViewModels\DashBoardViewModel.cs" />
+    <Compile Include="Models\ViewModels\ForgotPasswordViewModel.cs" />
+    <Compile Include="Models\ViewModels\HomeViewModel.cs" />
+    <Compile Include="Models\ViewModels\AddUserViewModel.cs" />
+    <Compile Include="Models\ViewModels\LoginViewModel.cs" />
+    <Compile Include="Models\ViewModels\MessageViewModel.cs" />
+    <Compile Include="Models\ViewModels\PasswordVerification.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\bootstrap-theme.css2.map" />
+    <Content Include="Content\bootstrap-theme.min.css2.map" />
+    <Content Include="Content\bootstrap.css2.map" />
+    <Content Include="Content\bootstrap.min.css2.map" />
+    <Content Include="fonts\fontawesome-webfont2.eot" />
+    <Content Include="fonts\fontawesome-webfont2.ttf" />
+    <Content Include="fonts\fontawesome-webfont2.woff" />
+    <Content Include="fonts\fontawesome-webfont2.woff2" />
+    <Content Include="fonts\FontAwesome2.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular2.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular2.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular2.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular2.woff2" />
+    <Content Include="fonts\themify2.eot" />
+    <Content Include="fonts\themify2.ttf" />
+    <Content Include="fonts\themify2.woff" />
+    <Content Include="Content\images\admin\Thumbs.db" />
+    <EntityDeploy Include="Models\VeriTabani\Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\VeriTabani\Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <None Include="packages.config" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_Header.cshtml" />
+    <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\Login\Login.cshtml" />
+    <Content Include="Views\Shared\_Layout2.cshtml" />
+    <Content Include="Views\Urun\UrunDetay.cshtml" />
+    <Content Include="Views\Login\AddUser.cshtml" />
+    <Content Include="Views\Urun\UrunArama.cshtml" />
+    <Content Include="Views\Urun\Sepet.cshtml" />
+    <Content Include="Views\Home\Tur.cshtml" />
+    <Content Include="Views\Home\YayinEvi.cshtml" />
+    <Content Include="Views\Home\Fiyat.cshtml" />
+    <Content Include="Views\Urun\Favorilerim.cshtml" />
+    <Content Include="Views\Home\Iletisim.cshtml" />
+    <Content Include="Views\Hesap\KisiselBilgiler.cshtml" />
+    <Content Include="Views\Hesap\SifreDegistir.cshtml" />
+    <Content Include="Views\Hesap\SiparisGoruntule.cshtml" />
+    <Content Include="Views\Shared\_Layout3.cshtml" />
+    <Content Include="Scripts\jquery-3.3.1.min2.map" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min2.map" />
+    <Content Include="Views\Shared\_Header2.cshtml" />
+    <Content Include="Views\Shared\_Footer2.cshtml" />
+    <Content Include="Views\Shared\_Layout4.cshtml" />
+    <Content Include="Views\Admin\AnaSayfa.cshtml" />
+    <Content Include="Views\Admin\KategoriIslemleri.cshtml" />
+    <Content Include="Views\Admin\UrunIslemleri.cshtml" />
+    <Content Include="Views\Admin\KategoriGuncelleme.cshtml" />
+    <Content Include="Views\Admin\UrunGuncelleme.cshtml" />
+    <Content Include="Views\Admin\MesajAl.cshtml" />
+    <Content Include="Views\Admin\MesajGoster.cshtml" />
+    <Content Include="Views\Admin\TopluPromosyonIslemleri.cshtml" />
+    <Content Include="Views\Admin\PromosyonEkle.cshtml" />
+    <Content Include="Views\Admin\KategoriPromosyonIslemleri.cshtml" />
+    <Content Include="Views\Admin\UrunBazliPromosyonIslemleri.cshtml" />
+    <Content Include="Views\Login\SifremiUnuttum.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50007</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50007/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Bu proje bu bilgisayarda olmayan NuGet paketlerine başvuru yapıyor. Bunları indirmek için NuGet Paket Geri Yükleme'yi kullanın. Daha fazla bilgi için, bkz. http://go.microsoft.com/fwlink/?LinkID=322105. Eksik dosya: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

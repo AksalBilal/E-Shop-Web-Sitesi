@@ -1,0 +1,52 @@
+﻿@model Noktalı_Virgül.Models.ViewModels.LoginViewModel
+@using Noktalı_Virgül.Models.ViewModels
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+
+}
+<form action="" method="post">
+    <section id="form">
+        <!--form-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-1">
+
+                    <div class="login-form">
+                        <!--login form-->
+                        <h2>Hesabım ile Giriş Yap</h2>
+                        @using (Html.BeginForm("Login", "Login", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div id="Login">
+                                <div class="form-group">
+                                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Mail" })
+                                    @Html.ValidationMessageFor(m => m.Email)
+                                </div>
+                                <div class="form-group">
+                                    @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Şifre" })
+                                    @Html.ValidationMessageFor(m => m.Password)
+                                </div>
+
+                                <div>
+                                    <button type="submit" class="btn btn-primary">Giriş Yap</button>
+
+                                    <button class="btn btn-primary"><a href="/Login/AddUser">Uye ol</a></button>
+                                </div>
+                                <a href="/Login/SifremiUnuttum">Şifremi Unuttum</a>
+
+                            </div>
+                        }
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+</form>

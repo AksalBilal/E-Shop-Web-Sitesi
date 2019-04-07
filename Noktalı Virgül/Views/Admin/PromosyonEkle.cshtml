@@ -1,0 +1,124 @@
+﻿
+@{
+    ViewBag.Title = "PromosyonEkle";
+    Layout = "~/Views/Shared/_Layout4.cshtml";
+}
+<script src="http://code.jquery.com/jquery-1.11.0.js"
+        integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw="
+        crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function myfunction() {
+        $(".hata").fadeOut(7000);
+        $(".ekle").click(function () {
+            var uid = 0;
+            var promosyon = $(".indirimOrani").val();
+            $.ajax(
+                {
+                    type: "POST",
+                    url: "/Admin/PromosyonEkle2",
+                    data: { id: uid, promosyon: promosyon , str:""},
+                    success: function (gelenveri) {
+                    },
+                    error: function () {
+                    }
+                });
+
+        });
+        $(".ekle1").click(function () {
+            var uid1 = 1;
+            var promosyon1 = $(".indirimOrani").val();
+            var tur = $(".turAdi").val();
+            $.ajax(
+                {
+                    type: "POST",
+                    url: "/Admin/PromosyonEkle2",
+                    data: { id: uid1, promosyon: promosyon1, str: tur },
+                    success: function (gelenveri) {
+                        if (gelenveri == "var") {
+
+                        }
+                        else {
+                            window.location = "/Admin/TopluPromosyonIslemleri"
+                        }
+
+                    },
+                    error: function () {
+                    }
+                });
+        });
+        $(".ekle2").click(function () {
+            var uid2 = 2;
+            var promosyon2 = $(".indirimOrani").val();
+            var ISBN = $(".ISBNNo").val();
+            $.ajax(
+                {
+                    type: "POST",
+                    url: "/Admin/PromosyonEkle2",
+                    data: { id: uid2, promosyon: promosyon2, str: ISBN },
+                    success: function (gelenveri) {
+                        if (gelenveri == "var") {
+
+                        }
+                        else {
+                            window.location = "/Admin/TopluPromosyonIslemleri"
+                        }
+
+                    },
+                    error: function () {
+                    }
+                });
+        });
+    });
+    function isNumberKey2(evt) {
+        var charCode = (evt.which) ? evt.which : event.keyCode
+        if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+            return false;
+        }
+        return true;
+    }
+</script>
+
+
+<form action="" method="post">
+    
+    <div class="container">
+        <h3>PromosyonEkle</h3>
+       
+        <div class="row">
+            @if (ViewBag.id == 1)
+            {
+                <input type="text" id="tur" class="turAdi" value="" placeholder="Kategori Adını Giriniz" required maxlength="50" />
+            }
+            else if (ViewBag.id == 2)
+            {
+                <input type="text" id="tur" class="ISBNNo" value="" placeholder="ISBN No Giriniz" required maxlength="13" />
+            }
+            <input type="text" id="tur" onkeypress="return isNumberKey2(event)" class="indirimOrani" value="" placeholder="İndirim Oranı Giriniz" required maxlength="2" />
+
+            @if (ViewBag.id == 1)
+            {
+                <button type="submit" class="btn btn-primary ekle1">Ekle</button>
+            }
+            else if (ViewBag.id == 2)
+            {
+                <button type="submit" class="btn btn-primary ekle2">Ekle</button>
+            }
+            else
+            {
+                <button type="submit" clas
+                        s="btn btn-primary ekle">
+                    Ekle
+                </button>
+            }
+            @if (ViewBag.Mesaj == 1)
+            {
+                <p class="hata"><b>Hata :</b>Girilen Kategori Bulunamadı!</p>
+            }
+            else if (ViewBag.Mesaj == 2)
+            {
+            <p class="hata"><b>Hata :</b>Girilen ISBN e ait kitap Bulunamadı!</p>
+            }
+        </div>
+    </div>
+</form>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HizliProjeModelStoreContainer" CdmEntityContainer="HizliProjeEntities3">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="HizliProjeModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblAdmin">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblAdmin">
+        <MappingFragment StoreEntitySet="tblAdmin">
+          <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblFavoriler">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblFavoriler">
+        <MappingFragment StoreEntitySet="tblFavoriler">
+          <ScalarProperty Name="FavoriID" ColumnName="FavoriID" />
+          <ScalarProperty Name="MusteriID" ColumnName="MusteriID" />
+          <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblKitap">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblKitap">
+        <MappingFragment StoreEntitySet="tblKitap">
+          <ScalarProperty Name="KitapID" ColumnName="KitapID" />
+          <ScalarProperty Name="ISBNNo" ColumnName="ISBNNo" />
+          <ScalarProperty Name="KitapAdi" ColumnName="KitapAdi" />
+          <ScalarProperty Name="Yazar" ColumnName="Yazar" />
+          <ScalarProperty Name="YayinEviID" ColumnName="YayinEviID" />
+          <ScalarProperty Name="SayfaSayisi" ColumnName="SayfaSayisi" />
+          <ScalarProperty Name="BasimYili" ColumnName="BasimYili" />
+          <ScalarProperty Name="Fiyati" ColumnName="Fiyati" />
+          <ScalarProperty Name="KapakResmi" ColumnName="KapakResmi" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="Adet" ColumnName="Adet" />
+          <ScalarProperty Name="StokDurumu" ColumnName="StokDurumu" />
+          <ScalarProperty Name="TurID" ColumnName="TurID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblKitapTur">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblKitapTur">
+        <MappingFragment StoreEntitySet="tblKitapTur">
+          <ScalarProperty Name="TurID" ColumnName="TurID" />
+          <ScalarProperty Name="TurAdi" ColumnName="TurAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblKullanici">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblKullanici">
+        <MappingFragment StoreEntitySet="tblKullanici">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSatinAlinanlar">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblSatinAlinanlar">
+        <MappingFragment StoreEntitySet="tblSatinAlinanlar">
+          <ScalarProperty Name="SatinAlinanID" ColumnName="SatinAlinanID" />
+          <ScalarProperty Name="MusteriID" ColumnName="MusteriID" />
+          <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+          <ScalarProperty Name="SatinAlmaAdedi" ColumnName="SatinAlmaAdedi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSepet">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblSepet">
+        <MappingFragment StoreEntitySet="tblSepet">
+          <ScalarProperty Name="SepetId" ColumnName="SepetId" />
+          <ScalarProperty Name="MusteriId" ColumnName="MusteriId" />
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="SepettekiAdet" ColumnName="SepettekiAdet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblYayinEvi">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblYayinEvi">
+        <MappingFragment StoreEntitySet="tblYayinEvi">
+          <ScalarProperty Name="YayinEviID" ColumnName="YayinEviID" />
+          <ScalarProperty Name="YayinEviAdi" ColumnName="YayinEviAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblZiyaretci">
+      <EntityTypeMapping TypeName="HizliProjeModel.tblZiyaretci">
+        <MappingFragment StoreEntitySet="tblZiyaretci">
+          <ScalarProperty Name="ZiyaretciID" ColumnName="ZiyaretciID" />
+          <ScalarProperty Name="ZiyaretciMAC" ColumnName="ZiyaretciMAC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

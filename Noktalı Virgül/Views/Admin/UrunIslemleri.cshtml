@@ -1,0 +1,40 @@
+﻿@model List<tblKitap>
+@using Noktalı_Virgül.Models.VeriTabani
+@{
+    ViewBag.Title = "UrunIslemleri";
+    Layout = "~/Views/Shared/_Layout4.cshtml";
+}
+
+<h2>
+    <font face="tahoma" size="5" color="maroon">
+        <b>Kitap İşlemleri</b>
+    </font>
+</h2>
+
+<div class="container">
+    <div>
+        <a class="btn btn-success" href="/Admin/UrunGuncelleme/0">Kitap Ekle</a>
+    </div>
+    @foreach (var item in Model)
+    {
+    <div class="col-sm-4">
+        <div class="product-image-wrapper">
+            <div class="single-products">
+                <div class="productinfo text-center" style="height: 525px;">
+                    <a href="/Urun/UrunDetay/@item.KitapID"><img style="height: 400px;" src="~/Content/images/kitaplar/@item.KapakResmi" alt="" /></a>
+                    <h2>₺@item.Fiyati</h2>
+                    <p>@item.KitapAdi</p>
+                    <div>
+                        <button class="btn btn-default add-to-cart"><a class="SepeteAt" name="@item.KitapID" href="/Admin/UrunGuncelleme/@item.KitapID"><i class=""></i>Güncelle</a></button>
+                        <button class="btn btn-default add-to-cart"><a class="SepeteAt" name="@item.KitapID"  href="/Admin/UrunSil/@item.KitapID"><i class=""></i>Sil</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            @*<td> <a class="btn btn-info" href="/Kategori/KategoriIslemleri">Stok Değiştir</a></td>
+            <td> <a class="btn btn-warning" href="/Kategori/KategoriIslemleri">Sil</a></td>
+            <td><a class="btn btn-primary" href="/Kategori/KategoriIslemleri">Güncelle</a></td>*@
+    }
+</div>
+

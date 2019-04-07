@@ -1,0 +1,47 @@
+﻿@model  Noktalı_Virgül.Models.ViewModels.PasswordVerification
+@{
+    ViewBag.Title = "SifreDegistir";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<script src="http://code.jquery.com/jquery-1.11.0.js"
+        integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw="
+        crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function myfunction() {
+        $(".mesaj").fadeOut(10000);
+    });
+</script>
+<div class="container">
+    <div class="signup-form">
+        <!--sign up form-->
+        <h2>Şifre Değiştirme</h2>
+        <p class="mesaj"><strong>@ViewBag.Mesaj</strong></p>
+        <form action="/Hesap/SifreDegistir" method="post">
+            @using (Html.BeginForm("SifreDegistir", "Hesap", FormMethod.Post))
+            {
+
+                @Html.AntiForgeryToken()
+
+                <!--sign up form-->
+                <div id="SignUp">
+                    <div class="form-group">
+                        @Html.PasswordFor(m => m.EskiSifre, new { @class = "form-control text", placeholder = "Eski şifre" })
+                        @Html.ValidationMessageFor(m => m.EskiSifre)
+                    </div>
+                    <div class="form-group">
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control text", placeholder = "Yeni Şifre" })
+                        @Html.ValidationMessageFor(m => m.Password)
+                    </div>
+                    <div class="form-group">
+                        @Html.PasswordFor(m => m.SifreDogrulama, new { @class = "form-control text", placeholder = "Şifreyi Doğrulama" })
+                        @Html.ValidationMessageFor(m => m.SifreDogrulama)
+                    </div>
+                    <button type="submit" class="btn btn-primary guncelle">Bilgileri Güncelle</button>
+                </div>
+            }
+        </form>
+    </div>
+</div>
+
+

@@ -1,0 +1,198 @@
+﻿@model Noktalı_Virgül.Models.ViewModels.DashBoardViewModel
+@{
+    ViewBag.Title = "AnaSayfa";
+    Layout = "~/Views/Shared/_Layout4.cshtml";
+}
+
+<div class="main-content-inner">
+    <!-- sales report area start -->
+    <div class="sales-report-area mt-5 mb-5">
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="single-report mb-xs-30">
+                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                        <div class="icon"><i class="fa fa-book"></i></div>
+                        <div class="s-report-title d-flex justify-content-between">
+                            <h4 class="header-title mb-0">Toplam Ürün Satışı</h4>
+                            <p>Toplam</p>
+                        </div>
+                        <div class="d-flex justify-content-between pb-2">
+
+
+                            <h2>@Model.ToplamUrunSatisSayisi</h2>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="single-report">
+                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                        <div class="icon"><i class="fa fa-users"></i></div>
+                        <div class="s-report-title d-flex justify-content-between">
+                            <h4 class="header-title mb-0">Toplam Üye Sayısı</h4>
+                            <p>Toplam</p>
+                        </div>
+                        <div class="d-flex justify-content-between pb-2">
+                            <h2>@Model.ToplamUyeKayitSayisi</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="single-report mb-xs-30">
+                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                        <div class="icon"><i class="fa fa-book"></i></div>
+                        <div class="s-report-title d-flex justify-content-between">
+                            <h4 class="header-title mb-0">Toplam Ürün Satışı</h4>
+                            <p>Haftalık</p>
+                        </div>
+                        <div class="d-flex justify-content-between pb-2">
+
+
+                            <h2>@Model.ToplamUrunSatisSayisiHaftalik</h2>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="single-report">
+                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                        <div class="icon"><i class="fa fa-users"></i></div>
+                        <div class="s-report-title d-flex justify-content-between">
+                            <h4 class="header-title mb-0">Toplam Üye Sayısı</h4>
+                            <p>Haftalık</p>
+                        </div>
+                        <div class="d-flex justify-content-between pb-2">
+                            <h2>@Model.ToplamUyeKayitSayisiHaftalik</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="single-report mb-xs-30">
+                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                        <div class="icon"><i class="fa fa-book"></i></div>
+                        <div class="s-report-title d-flex justify-content-between">
+                            <h4 class="header-title mb-0">Toplam Ürün Satışı</h4>
+                            <p>Günlük</p>
+                        </div>
+                        <div class="d-flex justify-content-between pb-2">
+
+
+                            <h2>@Model.ToplamUrunSatisSayisiGunluk</h2>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="single-report">
+                    <div class="s-report-inner pr--20 pt--30 mb-3">
+                        <div class="icon"><i class="fa fa-users"></i></div>
+                        <div class="s-report-title d-flex justify-content-between">
+                            <h4 class="header-title mb-0">Toplam Üye Sayısı</h4>
+                            <p>Günlük</p>
+                        </div>
+                        <div class="d-flex justify-content-between pb-2">
+                            <h2>@Model.ToplamUyeKayitSayisiGunluk</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sales report area end -->
+    <!-- market value area start -->
+    <div class="row mt-5 mb-5">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-sm-flex justify-content-between align-items-center">
+                        <h4 class="header-title mb-0">En Çok Satılan Ürünler</h4>
+                    </div>
+                    <div class="market-status-table mt-4">
+                        <div class="table-responsive">
+                            <table class="dbkit-table">
+                                <tr class="heading-td">
+                                    <td class="coin-name col-sm-8">Ürün Adı</td>
+                                    <td class="buy col-sm-2">Fiyat</td>
+                                    <td class="sell col-sm-2">Satış Miktarı</td>
+                                </tr>
+                                @foreach (var item in Model.encoksatisyapilanurunler)
+                                {
+                                    <tr>
+                                        <td class="coin-name col-sm-8">@item.KitapAdi</td>
+                                        <td class="buy col-sm-2">@item.UrunBirimFiyati</td>
+                                        <td class="sell col-sm-2">@item.adet</td>
+                                    </tr>
+                                }
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- market value area end -->
+    <!-- row area start -->
+    <div class="row">
+        <!-- Live Crypto Price area start -->
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">En Çok Satılan Kategori</h4>
+                    <div class="cripto-live mt-5">
+                        @foreach (var item in Model.EnCokSatisYapanKategori)
+                        {
+                            <ul>
+                                <li>
+                                    <div class="icon b">b</div> @item.TurAdi<span><i class="fa fa-long-arrow-up"></i>@item.adet Satış</span>
+                                </li>
+
+                            </ul>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Live Crypto Price area end -->
+        <!-- trading history area start -->
+
+    </div>
+    <div class="row mt-5 mb-5">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-sm-flex justify-content-between align-items-center">
+                        <h4 class="header-title mb-0">En Çok Sepete Eklenen Ürünler</h4>
+                    </div>
+                    <div class="market-status-table mt-4">
+                        <div class="table-responsive">
+                            <table class="dbkit-table">
+                                <tr class="heading-td">
+                                    <td class="coin-name col-sm-9">Ürün Adı</td>
+                                    
+                                    <td class="sell col-sm-3">Sepete Eklenme Sayısı</td>
+                                </tr>
+                                @foreach (var item in Model.encoksepeteeklenenurunler)
+                                {
+                                    <tr>
+                                        <td class="coin-name col-sm-9">@item.KitapAdi</td>
+                                        <td class="sell col-sm-3">@item.adet </td>
+                                    </tr>
+                                }
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- row area end -->
+    <!-- row area start-->

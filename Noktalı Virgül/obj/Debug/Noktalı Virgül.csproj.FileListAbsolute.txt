@@ -1,0 +1,1066 @@
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\Noktalı Virgül.dll.config
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\Noktalı Virgül.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\Noktalı Virgül.pdb
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\csc.exe
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\csc.exe.config
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\csc.rsp
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\csi.exe
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\csi.exe.config
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\csi.rsp
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.AppContext.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Console.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.IO.Compression.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.IO.Pipes.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Security.Claims.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.ValueTuple.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Xml.XPath.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\vbc.exe
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\vbc.exe.config
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\vbc.rsp
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Helpers.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Mvc.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Razor.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Webpages.Deployment.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Webpages.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Webpages.Razor.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Razor.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Webpages.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Webpages.Deployment.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Webpages.Razor.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Helpers.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Mvc.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\tr\System.Web.Razor.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\obj\Debug\Noktalı Virgül.csprojAssemblyReference.cache
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CoreCompileInputs.cache
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CopyComplete
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\obj\Debug\Noktalı Virgül.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\obj\Debug\Noktalı Virgül.pdb
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\EntityFramework.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\EntityFramework.SqlServer.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\EntityFramework.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\EntityFramework.SqlServer.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\Noktalı Virgül.dll.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\csc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\csc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\csc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\csi.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\csi.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\csi.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.AppContext.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Console.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.IO.Compression.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Security.Claims.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.ValueTuple.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\vbc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\vbc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\vbc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\EntityFramework.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\EntityFramework.SqlServer.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Helpers.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Webpages.Deployment.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Webpages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Webpages.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\EntityFramework.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\EntityFramework.SqlServer.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Webpages.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Webpages.Deployment.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Webpages.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Helpers.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\System.Web.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\tr\System.Web.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CoreCompileInputs.cache
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CopyComplete
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\obj\Debug\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\obj\Debug\Noktalı Virgül.pdb
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\Noktalı Virgül.dll.config
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\Noktalı Virgül.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\Noktalı Virgül.pdb
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\csc.exe
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\csc.exe.config
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\csc.rsp
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\csi.exe
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\csi.exe.config
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\csi.rsp
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.AppContext.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Console.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.IO.Compression.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.IO.Pipes.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Security.Claims.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.ValueTuple.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Xml.XPath.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\vbc.exe
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\vbc.exe.config
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\vbc.rsp
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\EntityFramework.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\EntityFramework.SqlServer.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\System.Web.Helpers.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\System.Web.Mvc.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\System.Web.Razor.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\System.Web.Webpages.Deployment.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\System.Web.Webpages.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\System.Web.Webpages.Razor.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\EntityFramework.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\EntityFramework.SqlServer.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\System.Web.Razor.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\System.Web.Webpages.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\System.Web.Webpages.Deployment.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\System.Web.Webpages.Razor.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\System.Web.Helpers.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\System.Web.Mvc.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\tr\System.Web.Razor.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\obj\Debug\Noktalı Virgül.csprojAssemblyReference.cache
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CoreCompileInputs.cache
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CopyComplete
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\obj\Debug\Noktalı Virgül.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal\Noktalı Virgül\obj\Debug\Noktalı Virgül.pdb
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\Noktalı Virgül.dll.config
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\Noktalı Virgül.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\Noktalı Virgül.pdb
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\csc.exe
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\csc.exe.config
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\csc.rsp
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\csi.exe
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\csi.exe.config
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\csi.rsp
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.AppContext.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Console.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.IO.Compression.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.IO.Pipes.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Claims.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.ValueTuple.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Xml.XPath.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\vbc.exe
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\vbc.exe.config
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\vbc.rsp
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\EntityFramework.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\EntityFramework.SqlServer.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\System.Web.Helpers.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\System.Web.Mvc.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\System.Web.Razor.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\System.Web.Webpages.Deployment.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\System.Web.Webpages.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\System.Web.Webpages.Razor.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\EntityFramework.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\EntityFramework.SqlServer.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\System.Web.Razor.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\System.Web.Webpages.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\System.Web.Webpages.Deployment.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\System.Web.Webpages.Razor.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\System.Web.Helpers.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\System.Web.Mvc.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\tr\System.Web.Razor.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\obj\Debug\Noktalı Virgül.csprojAssemblyReference.cache
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CoreCompileInputs.cache
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CopyComplete
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\obj\Debug\Noktalı Virgül.dll
+C:\Users\maydn\OneDrive\Masaüstü\Noktalı Virgül - bilal - Kopya\Noktalı Virgül\obj\Debug\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\PagedList.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\PagedList.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\PagedList.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\bin\PagedList.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül\Noktalı Virgül\obj\Debug\Noktalı Virgül.csprojAssemblyReference.cache
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\Noktalı Virgül.dll.config
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\Noktalı Virgül.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\Noktalı Virgül.pdb
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\csc.exe
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\csc.exe.config
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\csc.rsp
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\csi.exe
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\csi.exe.config
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\csi.rsp
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.AppContext.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Collections.Immutable.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Console.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.IO.Compression.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.IO.Pipes.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Reflection.Metadata.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Security.AccessControl.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Security.Claims.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.ValueTuple.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Xml.XPath.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\vbc.exe
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\vbc.exe.config
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\vbc.rsp
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe.config
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\EntityFramework.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\EntityFramework.SqlServer.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\Microsoft.Web.Infrastructure.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\PagedList.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\PagedList.Mvc.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Helpers.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Mvc.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Razor.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Webpages.Deployment.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Webpages.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Webpages.Razor.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\EntityFramework.xml
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\EntityFramework.SqlServer.xml
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\PagedList.xml
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\PagedList.Mvc.xml
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Razor.xml
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Webpages.xml
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Webpages.Deployment.xml
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Webpages.Razor.xml
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Helpers.xml
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Mvc.xml
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\tr\System.Web.Razor.resources.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\tr\System.Web.Webpages.resources.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\tr\System.Web.Webpages.Deployment.resources.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\tr\System.Web.Webpages.Razor.resources.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\tr\System.Web.Helpers.resources.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\tr\System.Web.Mvc.resources.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\obj\Debug\Noktalı Virgül.csprojAssemblyReference.cache
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CoreCompileInputs.cache
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CopyComplete
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\obj\Debug\Noktalı Virgül.dll
+E:\Noktalı Virgül(sepet templateli)\Noktalı Virgül\obj\Debug\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\Noktalı Virgül.dll.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\csc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\csc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\csc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\csi.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\csi.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\csi.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.AppContext.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Console.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.IO.Compression.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Security.Claims.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.ValueTuple.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\vbc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\vbc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\vbc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\EntityFramework.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\EntityFramework.SqlServer.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\PagedList.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\PagedList.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Helpers.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Webpages.Deployment.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Webpages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Webpages.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\EntityFramework.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\EntityFramework.SqlServer.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\PagedList.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\PagedList.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Webpages.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Webpages.Deployment.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Webpages.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Helpers.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\System.Web.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\tr\System.Web.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\obj\Debug\Noktalı Virgül.csprojAssemblyReference.cache
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CoreCompileInputs.cache
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CopyComplete
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\obj\Debug\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli)\Noktalı Virgül\obj\Debug\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\Noktalı Virgül.dll.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\csc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\csc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\csc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\csi.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\csi.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\csi.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.AppContext.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Console.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.IO.Compression.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Claims.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.ValueTuple.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\vbc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\vbc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\vbc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\EntityFramework.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\EntityFramework.SqlServer.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\PagedList.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\PagedList.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\System.Web.Helpers.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\System.Web.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\System.Web.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\System.Web.Webpages.Deployment.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\System.Web.Webpages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\System.Web.Webpages.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\EntityFramework.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\EntityFramework.SqlServer.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\PagedList.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\PagedList.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\System.Web.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\System.Web.Webpages.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\System.Web.Webpages.Deployment.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\System.Web.Webpages.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\System.Web.Helpers.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\System.Web.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\tr\System.Web.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\obj\Debug\Noktalı Virgül.csprojAssemblyReference.cache
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CoreCompileInputs.cache
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CopyComplete
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\obj\Debug\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Kopya\Noktalı Virgül\obj\Debug\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\Noktalı Virgül.dll.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\csc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\csc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\csc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\csi.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\csi.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\csi.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.AppContext.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Console.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.IO.Compression.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Security.Claims.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.ValueTuple.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\vbc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\vbc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\vbc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\EntityFramework.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\EntityFramework.SqlServer.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\PagedList.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\PagedList.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\System.Web.Helpers.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\System.Web.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\System.Web.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\System.Web.Webpages.Deployment.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\System.Web.Webpages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\System.Web.Webpages.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\EntityFramework.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\EntityFramework.SqlServer.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\PagedList.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\PagedList.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\System.Web.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\System.Web.Webpages.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\System.Web.Webpages.Deployment.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\System.Web.Webpages.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\System.Web.Helpers.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\System.Web.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\tr\System.Web.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CoreCompileInputs.cache
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CopyComplete
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\obj\Debug\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\obj\Debug\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali\Noktalı Virgül\obj\Debug\Noktalı Virgül.csprojAssemblyReference.cache
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\Noktalı Virgül.dll.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\csc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\csc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\csc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\csi.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\csi.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\csi.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.AppContext.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Console.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.IO.Compression.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Claims.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.ValueTuple.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\vbc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\vbc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\vbc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\EntityFramework.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\EntityFramework.SqlServer.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\PagedList.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\PagedList.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\System.Web.Helpers.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\System.Web.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\System.Web.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\System.Web.Webpages.Deployment.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\System.Web.Webpages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\System.Web.Webpages.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\EntityFramework.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\EntityFramework.SqlServer.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\PagedList.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\PagedList.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\System.Web.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\System.Web.Webpages.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\System.Web.Webpages.Deployment.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\System.Web.Webpages.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\System.Web.Helpers.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\System.Web.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\tr\System.Web.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\obj\Debug\Noktalı Virgül.csprojAssemblyReference.cache
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CoreCompileInputs.cache
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CopyComplete
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\obj\Debug\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - Son Hali - Kopya\Noktalı Virgül\obj\Debug\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\Noktalı Virgül.dll.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\csc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\csc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\csc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\csi.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\csi.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\csi.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.AppContext.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Console.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.IO.Compression.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Security.Claims.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.ValueTuple.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\vbc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\vbc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\vbc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\EntityFramework.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\EntityFramework.SqlServer.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\PagedList.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\PagedList.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\System.Web.Helpers.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\System.Web.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\System.Web.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\System.Web.Webpages.Deployment.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\System.Web.Webpages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\System.Web.Webpages.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\EntityFramework.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\EntityFramework.SqlServer.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\PagedList.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\PagedList.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\System.Web.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\System.Web.Webpages.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\System.Web.Webpages.Deployment.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\System.Web.Webpages.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\System.Web.Helpers.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\System.Web.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\tr\System.Web.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\obj\Debug\Noktalı Virgül.csprojAssemblyReference.cache
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CoreCompileInputs.cache
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CopyComplete
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\obj\Debug\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(sepet templateli) - En Son Hali\Noktalı Virgül\obj\Debug\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\Noktalı Virgül.dll.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\csc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\csc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\csc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\csi.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\csi.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\csi.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.AppContext.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Console.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.IO.Compression.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Security.Claims.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.ValueTuple.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\vbc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\vbc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\vbc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\EntityFramework.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\EntityFramework.SqlServer.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\PagedList.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\PagedList.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\System.Web.Helpers.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\System.Web.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\System.Web.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\System.Web.Webpages.Deployment.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\System.Web.Webpages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\System.Web.Webpages.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\EntityFramework.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\EntityFramework.SqlServer.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\PagedList.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\PagedList.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\System.Web.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\System.Web.Webpages.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\System.Web.Webpages.Deployment.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\System.Web.Webpages.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\System.Web.Helpers.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\System.Web.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\tr\System.Web.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\obj\Debug\Noktalı Virgül.csprojAssemblyReference.cache
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CoreCompileInputs.cache
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CopyComplete
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\obj\Debug\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül(vallahi en son)\Noktalı Virgül\obj\Debug\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\Noktalı Virgül.dll.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\csc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\csc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\csc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\csi.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\csi.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\csi.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.AppContext.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Console.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.IO.Compression.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Security.Claims.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.ValueTuple.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\vbc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\vbc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\vbc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\EntityFramework.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\EntityFramework.SqlServer.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\PagedList.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\PagedList.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\System.Web.Helpers.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\System.Web.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\System.Web.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\System.Web.Webpages.Deployment.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\System.Web.Webpages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\System.Web.Webpages.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\EntityFramework.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\EntityFramework.SqlServer.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\PagedList.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\PagedList.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\System.Web.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\System.Web.Webpages.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\System.Web.Webpages.Deployment.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\System.Web.Webpages.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\System.Web.Helpers.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\System.Web.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\tr\System.Web.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\obj\Debug\Noktalı Virgül.csprojAssemblyReference.cache
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CoreCompileInputs.cache
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CopyComplete
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\obj\Debug\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül (vallahi en son) İleşimli\Noktalı Virgül\obj\Debug\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\Noktalı Virgül.dll.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\csc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\csc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\csc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\csi.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\csi.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\csi.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.AppContext.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Console.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.IO.Compression.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Security.Claims.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.ValueTuple.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\vbc.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\vbc.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\vbc.rsp
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\EntityFramework.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\EntityFramework.SqlServer.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\PagedList.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\PagedList.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\System.Web.Helpers.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\System.Web.Mvc.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\System.Web.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\System.Web.Webpages.Deployment.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\System.Web.Webpages.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\System.Web.Webpages.Razor.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\EntityFramework.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\EntityFramework.SqlServer.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\PagedList.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\PagedList.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\System.Web.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\System.Web.Webpages.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\System.Web.Webpages.Deployment.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\System.Web.Webpages.Razor.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\System.Web.Helpers.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\System.Web.Mvc.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\tr\System.Web.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CoreCompileInputs.cache
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CopyComplete
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\obj\Debug\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\obj\Debug\Noktalı Virgül.pdb

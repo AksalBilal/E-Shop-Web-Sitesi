@@ -1,0 +1,229 @@
+﻿@model Noktalı_Virgül.Models.ViewModels.HomeViewModel
+@using PagedList;
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    Boolean favorilereEkli = false;
+    Boolean sonuc = false;
+    var kullaniciAdi = User.Identity.Name.Split(' ');
+    Boolean sonucGoster()
+    {
+        return sonuc = !kullaniciAdi.Equals("");
+    }
+    int id = 0;
+    if (sonucGoster())
+    {
+        try
+        {
+            id = Convert.ToInt32(kullaniciAdi[3]);
+        }
+        catch (Exception)
+        {
+
+            id = 0;
+        }
+    }
+    decimal[] aralik = null;
+    try
+    {
+        aralik = ViewBag.deger;
+    }
+    catch (Exception)
+    {
+    }
+}
+<script src="http://code.jquery.com/jquery-1.11.0.js"
+        integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw="
+        crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function myfunction() {
+        $(".SepeteAt").click(function () {
+            var uid = $(this).attr("name");
+            $.ajax(
+                {
+                    type: "POST",
+                    url: "/Urun/SepeteEkle",
+                    data: { id: uid },
+                    success: function () {
+                        alert("ürün sepete eklendi")
+
+                    },
+                    error: function () {
+                        alert("ürün sepete eklenmedi!");
+                    }
+                });
+
+        });
+        $("a.FavoriEkle").click(function () {
+            var uid2 = $(this).attr("id");
+            //alert(uid2);
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("FavorilereEkle", "Urun")',
+                dataType:'json',
+                data: { id: uid2 },
+                success: function (gelenveri) {
+                    if (gelenveri == "hatalı") {
+                        window.location = "/Login/Login";
+                    }
+                    else {
+                        alert("Ürün Favorilere Eklendi");
+                        location.reload();
+                    }
+
+
+                },
+                error: function (hata) {
+                    alert("ürün favoriye eklenmedi!");
+
+                }
+            });
+            });
+        $("a.FavoriCikar").click(function () {
+            var uid2 = $(this).attr("id");
+           $.ajax({
+
+                type: "POST",
+                url: "/Urun/FavorilerdenCikar",
+                data: { id: uid2 },
+                success: function () {
+
+                    location.reload();
+                },
+                error: function () {
+                }
+            });
+        });
+    });
+</script>
+
+
+<div class="col-sm-9 padding-right">
+    <div class="features_items">
+        <!--features_items-->
+        <h2 class="title text-center">Kitaplar</h2>
+        @foreach (var kitap in Model.Kitaplar)
+        {
+            if (kitap.YayinEviID == ViewBag.ID)
+            {
+                if (Noktalı_Virgül.Controllers.HomeController.ajaxgelenveri == 3)
+                {
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center" style="height: 525px;">
+                                    <a href="/Urun/UrunDetay/@kitap.KitapID"><img style="height: 400px;" src="~/Content/images/kitaplar/@kitap.KapakResmi" alt="" /></a>
+                                    <h2>₺@kitap.Fiyati</h2>
+                                    <p>@kitap.KitapAdi</p>
+                                    @if (kitap.StokDurumu == true)
+                                    {
+                                        <button class="btn btn-default add-to-cart"><a class="SepeteAt" name="@kitap.KitapID"><i class="fa fa-shopping-cart"></i>Sepete Ekle</a></button>
+                                    }
+                                    else
+                                    {
+
+                                        <button class="btn btn-default add-to-cart">Tükendi</button>
+                                    }
+                                </div>
+                            </div>
+                            <div class="choose">
+                                <ul class="nav nav-pills nav-justified">
+                                    @if (sonucGoster())
+                                    {
+                                        if (Model.Favoriler != null && kullaniciAdi != null)
+                                        {
+                                            foreach (var fav in Model.Favoriler)
+                                            {
+                                                if (fav.UrunID == kitap.KitapID && fav.MusteriID == id)
+                                                {
+                                                    favorilereEkli = true;
+                                                    break;
+                                                }
+                                                else
+                                                {
+                                                    favorilereEkli = false;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    @if (favorilereEkli == false)
+                                    {
+                                        <li><a class="Favoriekle" id="@kitap.KitapID"><i class="fa fa-plus-square"></i>Favorilere Ekle</a></li>
+                                    }
+                                    else
+                                    {
+                                        ///Urun/FavorilereEkle/@kitap.KitapID
+                                        <li><a id="@kitap.KitapID" class="FavoriCikar"><i class="fa fa-plus-square"></i>Favorilerden Çıkar</a></li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="col-sm-6">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center" style="height: 525px;">
+                                    <a href="/Urun/UrunDetay/@kitap.KitapID"><img style="height: 400px;" src="~/Content/images/kitaplar/@kitap.KapakResmi" alt="" /></a>
+                                    <h2>₺@kitap.Fiyati</h2>
+                                    <p>@kitap.KitapAdi</p>
+                                    @if (kitap.StokDurumu == true)
+                                    {
+                                        <button class="btn btn-default add-to-cart"><a class="SepeteAt" name="@kitap.KitapID"><i class="fa fa-shopping-cart"></i>Sepete Ekle</a></button>
+                                    }
+                                    else
+                                    {
+
+                                        <button class="btn btn-default add-to-cart">Tükendi</button>
+                                    }
+                                </div>
+                            </div>
+                            <div class="choose">
+                                <ul class="nav nav-pills nav-justified">
+                                    @if (sonucGoster())
+                                    {
+                                        if (Model.Favoriler != null && kullaniciAdi != null)
+                                        {
+                                            foreach (var fav in Model.Favoriler)
+                                            {
+                                                if (fav.UrunID == kitap.KitapID && fav.MusteriID == id)
+                                                {
+                                                    favorilereEkli = true;
+                                                    break;
+                                                }
+                                                else
+                                                {
+                                                    favorilereEkli = false;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    @if (favorilereEkli == false)
+                                    {
+                                        <li><a class="Favoriekle" id="@kitap.KitapID"><i class="fa fa-plus-square"></i>Favorilere Ekle</a></li>
+                                    }
+                                    else
+                                    {
+                                        ///Urun/FavorilereEkle/@kitap.KitapID
+                                        <li><a id="@kitap.KitapID" class="FavoriCikar"><i class="fa fa-plus-square"></i>Favorilerden Çıkar</a></li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            }
+        }
+    </div><!--features_items-->
+    <div class="row">
+        <div class="col-md-8 text-center">
+            <div class="pagedList pagination">
+                @Html.PagedListPager(Model.deneme, Page => Url.Action("YayinEvi", new { Page }), PagedListRenderOptions.Classic)
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,44 @@
+﻿@model  Noktalı_Virgül.Models.ViewModels.AccountViewModel
+@{
+    ViewBag.Title = "KisiselBilgiler";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+
+<body>
+    <div class="container">
+        <div class="signup-form">
+            <h2>Bilgi Güncelleme</h2>
+            <form action="/Hesap/KisiselBilgiler" method="post">
+                @using (Html.BeginForm("KisiselBilgiler", "Hesap", FormMethod.Post))
+                {
+
+                    @Html.AntiForgeryToken()
+
+                    <!--sign up form-->
+                    <div id="SignUp">
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.Ad, new { @class = "form-control text", placeholder = "Ad", @Value = Model.Kullanici.Ad })
+                            @Html.ValidationMessageFor(m => m.Ad)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.Soyad, new { @class = "form-control text", placeholder = "Soyad", @Value = @Model.Kullanici.Soyad })
+                            @Html.ValidationMessageFor(m => m.Soyad)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control text", placeholder = "Email", @Value = @Model.Kullanici.Mail })
+                            @Html.ValidationMessageFor(m => m.Email)
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(m => m.Adres, new { @class = "form-control text", placeholder = "Adres", @Value = @Model.Kullanici.Adres })
+                            @Html.ValidationMessageFor(m => m.Adres)
+                        </div>
+
+                        <button type="submit" class="btn btn-primary guncelle">Bilgileri Güncelle</button>
+                    </div>
+                }
+            </form>
+        </div>
+    </div>
+</body>
+

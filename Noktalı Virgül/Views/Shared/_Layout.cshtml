@@ -1,0 +1,160 @@
+﻿@model Noktalı_Virgül.Models.ViewModels.HomeViewModel
+@{
+    Layout = null;
+    var Urlstr = Request.FilePath;
+    var dizi = Urlstr.Split('/');
+}
+<script src="http://code.jquery.com/jquery-1.11.0.js"
+        integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw="
+        crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function myfunction() {
+
+        $("a.ikilik").click(function () {
+            var uid2 = $(this).attr("id");
+           
+            var gonderilecek = 2; $.ajax(
+                {
+                    type: "POST",
+                   url: "/Urun/SayfaBoyutlandir",
+                   data: { id: gonderilecek , gelenurl: uid2},
+                    success: function () {
+                    },
+                   error: function () {
+                    }
+                });
+            location.reload();
+        });
+        $("a.ucluk").click(function () {
+            var uid2 = $(this).attr("id");
+
+            var gonderilecek = 3;
+            $.ajax(
+                {
+                    type: "POST",
+                    url: "/Urun/SayfaBoyutlandir",
+                    data: { id: gonderilecek, gelenurl: uid2 },
+                    success: function () {
+                    },
+                    error: function () {
+                    }
+                });
+            location.reload();
+        });
+    });
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home | E-Shopper</title>
+    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="~/Content/css/prettyPhoto.css" rel="stylesheet">
+    <link href="~/Content/css/price-range.css" rel="stylesheet">
+    <link href="~/Content/css/animate.css" rel="stylesheet">
+    <link href="~/Content/css/main.css" rel="stylesheet">
+    <link href="~/Content/css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+<body>
+    @Html.Partial("_Header")
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="left-sidebar">
+                        <h2>Kategoriler</h2>
+                        <div class="panel-group category-products" id="accordian">
+                            <!--category-productsr-->
+                            @if (Model?.KitapTurleri != null)
+                            {
+                                foreach (var tur in Model.KitapTurleri)
+                                {
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a href="/Home/Tur/@tur.TurID">
+
+                                                    <span class="badge pull-right"></span>@tur.TurAdi
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="sportswear" class="panel panel-default">
+
+                                        </div>
+                                    </div>
+                                }
+                            }
+                        </div><!--/category-products-->
+
+                        <div class="brands_products">
+                            <!--brands_products-->
+                            <h2>Yayın Evi</h2>
+                            <div class="brands-name">
+                                <ul class="nav nav-pills nav-stacked">
+                                    @foreach (var yayinevi in Model.YayinEvleri)
+                                    {
+                                        <li><a href="/Home/YayinEvi/@yayinevi.YayinEviID">@yayinevi.YayinEviAdi</a></li>
+                                    }
+                                </ul>
+                            </div>
+                        </div><!--/brands_products-->
+
+                        <div class="price-range">
+                            <!--price-range-->
+                            <h2>Fiyat Aralığı</h2>
+                            <div class="well text-center">
+                                @*<input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[0,100]" id="sl2"><br />
+                    <b class="pull-left">₺ 0</b> <b class="pull-right">₺ 600</b>*@
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li><a href="/Home/Fiyat/1"><i></i>0 TL - 25 TL</a></li>
+                                    <li><a href="/Home/Fiyat/2"><i></i> 25 TL - 50 TL</a></li>
+                                    <li><a href="/Home/Fiyat/3"><i></i> 50 TL - 100 TL</a></li>
+                                    <li><a href="/Home/Fiyat/4"><i></i> 100 TL - 250 TL</a></li>
+                                    <li><a href="/Home/Fiyat/5"><i></i> 250 TL - 500 TL</a></li>
+                                    <li><a href="/Home/Fiyat/6"><i></i> 500 TL ve Üzeri </a></li>
+                                </ul>
+                            </div>
+                        </div><!--/price-range-->
+                        <div class="gorunum-cesidi">
+                            <h2>Görünüm</h2>
+                            <div class="well text-center">
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li><a id=@Urlstr class="ikilik"><i class="fa fa-th-large"></i> İkili</a></li>
+                                    <li><a id=@Urlstr class="ucluk"><i class="fa fa-th"></i> Üçlü</a></li>
+                                </ul>
+                            </div>
+                        </div><!--/Görünüm Çeşidi-->
+                    </div>
+                    <a  title="Sayaç"><img src="http://www.web-counter.net/count_20091204.php?c=Bt4Unvdx7QS" style="border:0;padding:100;margin:18px;" alt="Sayaç"></a><br /><font size="1" face="Arial"><a title="Besucherzähler"></a><br /><a" title="Sayaç"></a></font>
+                </div>
+@RenderBody()
+            </div>
+        </div>
+    </section>
+    @Html.Partial("_Footer")
+
+
+    <script src="~/Scripts/jquery.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.scrollUp.min.js"></script>
+    <script src="~/Scripts/price-range.js"></script>
+    <script src="~/Scripts/jquery.prettyPhoto.js"></script>
+    <script src="~/Scripts/main.js"></script>
+</body>
+</html>

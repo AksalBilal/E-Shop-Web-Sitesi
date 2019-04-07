@@ -1,0 +1,41 @@
+﻿@using Noktalı_Virgül.Models.VeriTabani
+
+@{
+    ViewBag.Title = "KategoriPromosyonIslemleri";
+    Layout = "~/Views/Shared/_Layout4.cshtml";
+    IList<tblPromosyon> promosyons = ViewBag.promosyonlar;
+}
+
+
+<div class="container">
+    <h2><b>Kategori Promosyon İşlemleri</b></h2>
+
+    <a class="btn btn-success" href="/Admin/PromosyonEkle/1">Promosyon Ekle</a>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th class="col-md-9">Kategori Adı</th>
+                <th class="col-md-2">Promosyon Oranı</th>
+                <th class="col-md-1">Sil</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (promosyons != null)
+            {
+                foreach (var item in promosyons)
+                {
+            <tr>
+                <td>@item.tblKitapTur.TurAdi</td>
+                <td>@item.IndirimOrani</td>
+                <td> <a href="/Admin/PromosyonSil/@item.PromosyonId" class="btn btn-warning sil" name="@item.PromosyonId">Sil</a></td>
+                <br />
+            </tr>
+                }
+            }
+
+        </tbody>
+    </table>
+
+
+</div>
+

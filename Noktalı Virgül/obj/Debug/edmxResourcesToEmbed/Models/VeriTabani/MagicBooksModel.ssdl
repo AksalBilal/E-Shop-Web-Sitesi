@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HizliProjeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="tblAdmin">
+    <Key>
+      <PropertyRef Name="AdminID" />
+    </Key>
+    <Property Name="AdminID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Soyad" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Mail" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sifre" Type="nvarchar" MaxLength="16" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblFavoriler">
+    <Key>
+      <PropertyRef Name="FavoriID" />
+    </Key>
+    <Property Name="FavoriID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MusteriID" Type="int" Nullable="false" />
+    <Property Name="UrunID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblKitap">
+    <Key>
+      <PropertyRef Name="KitapID" />
+    </Key>
+    <Property Name="KitapID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ISBNNo" Type="nvarchar" MaxLength="13" Nullable="false" />
+    <Property Name="KitapAdi" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Yazar" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="YayinEviID" Type="int" Nullable="false" />
+    <Property Name="SayfaSayisi" Type="int" Nullable="false" />
+    <Property Name="BasimYili" Type="int" Nullable="false" />
+    <Property Name="Fiyati" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="KapakResmi" Type="text" />
+    <Property Name="Aciklama" Type="text" Nullable="false" />
+    <Property Name="Adet" Type="int" Nullable="false" />
+    <Property Name="StokDurumu" Type="bit" />
+    <Property Name="TurID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblKitapTur">
+    <Key>
+      <PropertyRef Name="TurID" />
+    </Key>
+    <Property Name="TurID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TurAdi" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblKullanici">
+    <Key>
+      <PropertyRef Name="KullaniciID" />
+    </Key>
+    <Property Name="KullaniciID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Soyad" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Mail" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sifre" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Adres" Type="text" />
+  </EntityType>
+  <EntityType Name="tblSatinAlinanlar">
+    <Key>
+      <PropertyRef Name="SatinAlinanID" />
+    </Key>
+    <Property Name="SatinAlinanID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MusteriID" Type="int" Nullable="false" />
+    <Property Name="UrunID" Type="int" Nullable="false" />
+    <Property Name="SatinAlmaAdedi" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblSepet">
+    <Key>
+      <PropertyRef Name="SepetId" />
+    </Key>
+    <Property Name="SepetId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MusteriId" Type="int" Nullable="false" />
+    <Property Name="UrunId" Type="int" Nullable="false" />
+    <Property Name="SepettekiAdet" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblYayinEvi">
+    <Key>
+      <PropertyRef Name="YayinEviID" />
+    </Key>
+    <Property Name="YayinEviID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="YayinEviAdi" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblZiyaretci">
+    <Key>
+      <PropertyRef Name="ZiyaretciID" />
+    </Key>
+    <Property Name="ZiyaretciID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ZiyaretciMAC" Type="nvarchar" MaxLength="12" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_tblFavoriler_tblKitap">
+    <End Role="tblKitap" Type="Self.tblKitap" Multiplicity="1" />
+    <End Role="tblFavoriler" Type="Self.tblFavoriler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKitap">
+        <PropertyRef Name="KitapID" />
+      </Principal>
+      <Dependent Role="tblFavoriler">
+        <PropertyRef Name="UrunID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblFavoriler_tblKullanici">
+    <End Role="tblKullanici" Type="Self.tblKullanici" Multiplicity="1" />
+    <End Role="tblFavoriler" Type="Self.tblFavoriler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKullanici">
+        <PropertyRef Name="KullaniciID" />
+      </Principal>
+      <Dependent Role="tblFavoriler">
+        <PropertyRef Name="MusteriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblKitap_tblKitapTur">
+    <End Role="tblKitapTur" Type="Self.tblKitapTur" Multiplicity="1" />
+    <End Role="tblKitap" Type="Self.tblKitap" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKitapTur">
+        <PropertyRef Name="TurID" />
+      </Principal>
+      <Dependent Role="tblKitap">
+        <PropertyRef Name="TurID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblKitap_tblYayinEvi">
+    <End Role="tblYayinEvi" Type="Self.tblYayinEvi" Multiplicity="1" />
+    <End Role="tblKitap" Type="Self.tblKitap" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblYayinEvi">
+        <PropertyRef Name="YayinEviID" />
+      </Principal>
+      <Dependent Role="tblKitap">
+        <PropertyRef Name="YayinEviID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSatinAlinanlar_tblKitap">
+    <End Role="tblKitap" Type="Self.tblKitap" Multiplicity="1" />
+    <End Role="tblSatinAlinanlar" Type="Self.tblSatinAlinanlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKitap">
+        <PropertyRef Name="KitapID" />
+      </Principal>
+      <Dependent Role="tblSatinAlinanlar">
+        <PropertyRef Name="UrunID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSatinAlinanlar_tblKullanici">
+    <End Role="tblKullanici" Type="Self.tblKullanici" Multiplicity="1" />
+    <End Role="tblSatinAlinanlar" Type="Self.tblSatinAlinanlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKullanici">
+        <PropertyRef Name="KullaniciID" />
+      </Principal>
+      <Dependent Role="tblSatinAlinanlar">
+        <PropertyRef Name="MusteriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSepet_tblKitap">
+    <End Role="tblKitap" Type="Self.tblKitap" Multiplicity="1" />
+    <End Role="tblSepet" Type="Self.tblSepet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKitap">
+        <PropertyRef Name="KitapID" />
+      </Principal>
+      <Dependent Role="tblSepet">
+        <PropertyRef Name="UrunId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSepet_tblKullanici">
+    <End Role="tblKullanici" Type="Self.tblKullanici" Multiplicity="1" />
+    <End Role="tblSepet" Type="Self.tblSepet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKullanici">
+        <PropertyRef Name="KullaniciID" />
+      </Principal>
+      <Dependent Role="tblSepet">
+        <PropertyRef Name="MusteriId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSepet_tblZiyaretci">
+    <End Role="tblZiyaretci" Type="Self.tblZiyaretci" Multiplicity="1" />
+    <End Role="tblSepet" Type="Self.tblSepet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblZiyaretci">
+        <PropertyRef Name="ZiyaretciID" />
+      </Principal>
+      <Dependent Role="tblSepet">
+        <PropertyRef Name="MusteriId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HizliProjeModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblAdmin" EntityType="Self.tblAdmin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblFavoriler" EntityType="Self.tblFavoriler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblKitap" EntityType="Self.tblKitap" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblKitapTur" EntityType="Self.tblKitapTur" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblKullanici" EntityType="Self.tblKullanici" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblSatinAlinanlar" EntityType="Self.tblSatinAlinanlar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblSepet" EntityType="Self.tblSepet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblYayinEvi" EntityType="Self.tblYayinEvi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblZiyaretci" EntityType="Self.tblZiyaretci" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_tblFavoriler_tblKitap" Association="Self.FK_tblFavoriler_tblKitap">
+      <End Role="tblKitap" EntitySet="tblKitap" />
+      <End Role="tblFavoriler" EntitySet="tblFavoriler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblFavoriler_tblKullanici" Association="Self.FK_tblFavoriler_tblKullanici">
+      <End Role="tblKullanici" EntitySet="tblKullanici" />
+      <End Role="tblFavoriler" EntitySet="tblFavoriler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblKitap_tblKitapTur" Association="Self.FK_tblKitap_tblKitapTur">
+      <End Role="tblKitapTur" EntitySet="tblKitapTur" />
+      <End Role="tblKitap" EntitySet="tblKitap" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblKitap_tblYayinEvi" Association="Self.FK_tblKitap_tblYayinEvi">
+      <End Role="tblYayinEvi" EntitySet="tblYayinEvi" />
+      <End Role="tblKitap" EntitySet="tblKitap" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSatinAlinanlar_tblKitap" Association="Self.FK_tblSatinAlinanlar_tblKitap">
+      <End Role="tblKitap" EntitySet="tblKitap" />
+      <End Role="tblSatinAlinanlar" EntitySet="tblSatinAlinanlar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSatinAlinanlar_tblKullanici" Association="Self.FK_tblSatinAlinanlar_tblKullanici">
+      <End Role="tblKullanici" EntitySet="tblKullanici" />
+      <End Role="tblSatinAlinanlar" EntitySet="tblSatinAlinanlar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSepet_tblKitap" Association="Self.FK_tblSepet_tblKitap">
+      <End Role="tblKitap" EntitySet="tblKitap" />
+      <End Role="tblSepet" EntitySet="tblSepet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSepet_tblKullanici" Association="Self.FK_tblSepet_tblKullanici">
+      <End Role="tblKullanici" EntitySet="tblKullanici" />
+      <End Role="tblSepet" EntitySet="tblSepet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSepet_tblZiyaretci" Association="Self.FK_tblSepet_tblZiyaretci">
+      <End Role="tblZiyaretci" EntitySet="tblZiyaretci" />
+      <End Role="tblSepet" EntitySet="tblSepet" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

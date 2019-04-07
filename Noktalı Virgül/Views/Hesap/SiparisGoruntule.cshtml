@@ -1,0 +1,68 @@
+﻿@using Noktalı_Virgül.Models.VeriTabani;
+@{
+
+    IList<tblSatinAlinanlar> Sonsatinalinanlar = ViewBag.Sonsatinalinanlar;
+    ViewBag.Title = "SiparisGoruntule";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+    int temp = 1;
+
+}
+
+<section id="cart_items">
+    <div class="container">
+        <font face="tahoma" size="5" color="maroon">
+            <b>Son 10 Siparişim</b>
+        </font>
+        <div class="table-responsive cart_info">
+            <table class="table table-condensed">
+                <thead>
+                    <tr class="cart_menu">
+                        <td class="image">Ürün</td>
+                        <td class="description"></td>
+                        <td class="entry-date">Tarih</td>
+                        <td class="description">Adres</td>
+                        <td class="price">Fiyat</td>
+                        <td class="quantity">Miktar</td>
+                        <td class="description">Toplam Fiyatı</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody class="cart_description">
+                    @foreach (var item in Sonsatinalinanlar)
+                    {
+                        temp++;
+                        <tr>
+                            <td class="cart_description ">
+                                <a href="/Urun/UrunDetay/@item.UrunID"><img style="height: 150px;" src="~/Content/images/kitaplar/@item.tblKitap.KapakResmi"></a>
+                            </td>
+                            <td class="cart_description">
+                                <h4><a>@item.tblKitap.KitapAdi</a></h4>
+                                <p>@item.tblKitap.ISBNNo</p>
+                            </td>
+
+                            <td class="cart_description"><a>@Convert.ToDateTime(item.SatinAlmaTarihi)</a></td>
+                            <td class="cart_description"><a>@item.Adres</a></td>
+                            <td class="cart_price">
+                                <p>₺ @item.UrunBirimFiyati</p>
+                            </td>
+                            <td class="cart_quantity">
+                                <div class="cart_description">
+
+                                    <p>@item.SatinAlmaAdedi</p>
+
+                                </div>
+                            </td>
+                            <td class="cart_price">
+                                <p>₺ @item.ToplamFiyat</p>
+                            </td>
+                        </tr>
+                        if (temp == 11)
+                        {
+                            break;
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>

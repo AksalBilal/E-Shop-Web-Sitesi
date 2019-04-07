@@ -1,0 +1,67 @@
+﻿@model Noktalı_Virgül.Models.ViewModels.MessageViewModel
+@{
+    ViewBag.Title = "MesajAl";
+    Layout = "~/Views/Shared/_Layout4.cshtml";
+}
+
+<div class="container">
+    <h2><b>Gelen Kutusu</b></h2>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th class="col-md-1">Gönderici Tipi</th>
+                <th class="col-md-4">E-mail</th>
+                <th class="col-md-4">Konu</th>
+                <th class="col-md-1">Görüntüle</th>
+                <th class="col-md-1">Sil</th>
+                <th class="col-md-1">Okundu Bilgisi</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Mesajlar)
+            {
+                if (item.OkunduMu == false)
+                {
+            <tr style="background-color:white">
+                @if (item.GonderciTipi == true)
+                {
+                    <td>Kullanıcı</td>
+                }
+                else
+                {
+                    <td>Ziyaretçi</td>
+                }
+                <td>@item.Email</td>
+                <td>@item.Konu</td>
+                <td><a class="btn btn-primary guncelle" id="@item.MesajId" href="/Admin/MesajGoster/@item.MesajId">Görüntüle</a></td>
+                <td> <a href="/Admin/MesajSil/@item.MesajId" class="btn btn-warning sil" name="@item.MesajId">Sil</a></td>
+                <td> <a href="/Admin/BilgiDegistir/@item.MesajId" class="btn btn-warning sil" name="@item.MesajId">Okundu Olarak İşaretle</a></td>
+                <br />
+            </tr>
+                }
+                else
+                {
+            <tr style="background-color:gray">
+                @if (item.GonderciTipi == true)
+                {
+                    <td>Kullanıcı</td>
+                }
+                else
+                {
+                    <td>Ziyaretçi</td>
+                }
+                <td>@item.Email</td>
+                <td>@item.Konu</td>
+                <td><a class="btn btn-primary guncelle" id="@item.MesajId" href="/Admin/MesajGoster/@item.MesajId">Görüntüle</a></td>
+                <td> <a href="/Admin/MesajSil/@item.MesajId" class="btn btn-warning sil" name="@item.MesajId">Sil</a></td>
+                <td> <a href="/Admin/BilgiDegistir/@item.MesajId" class="btn btn-warning sil" name="@item.MesajId">Okunmadı Olarak İşaretle</a></td>
+                <br />
+            </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+
+</div>
