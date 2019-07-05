@@ -32,3 +32,6 @@ Adminin Yapabildikleri;
 -Giriş Yaptıktan sonra kendine özel dashboard ekranında site ile ilgili istatistikleri görüntüleme
 -Gelen mailleri Listeleme,Görüntüleme,Silme
 -Site İstatistiklerini İzleme
+
+
+Proje Tanıtım linki :https://youtu.be/C4_-aroDb1E
