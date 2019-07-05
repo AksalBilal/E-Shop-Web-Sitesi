@@ -2,7 +2,7 @@
 
 @{
     ViewBag.Title = "Favorilerim";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
     var kullaniciAdi = User.Identity.Name.Split(' ');
     List<Noktalı_Virgül.Models.VeriTabani.tblFavoriler> favoriList = ViewBag.favoriList;
     var sayfa = Noktalı_Virgül.Controllers.UrunController.ajaxverisi;
@@ -61,69 +61,78 @@
         <li class="active">Favorilerim</li>
     </ol>
 </div>
-<div class="col-sm-9 padding-right">
+<div class="col-sm-12 padding-right">
     <div class="features_items">
         <!--features_items-->
-        <h2 class="title text-center">Kitaplar</h2>
-        @foreach (var kitap in favoriList)
+        <h2 class="title text-center">Favori Kitaplarım</h2>
+        @if (favoriList.Count == 0)
         {
-            if (sayfa == 3)
-            {
-                <div class="col-sm-4">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center" style="height: 525px;">
-                                <a href="/Urun/UrunDetay/@kitap.tblKitap.KitapID"><img style="height: 400px;" src="~/Content/images/kitaplar/@kitap.tblKitap.KapakResmi" alt="" /></a>
-                                <h2>₺@kitap.tblKitap.Fiyati</h2>
-                                <p>@kitap.tblKitap.KitapAdi</p>
-                                @if (kitap.tblKitap.StokDurumu == true)
-                                {
-                                    <button class="btn btn-default add-to-cart"><a class="SepeteAt" name="@kitap.tblKitap.KitapID"><i class="fa fa-shopping-cart"></i>Sepete Ekle</a></button>
-                                }
-                                else
-                                {
+            <h1> Favori Kitabınız Yok</h1>
+        }
+        else
+        {
 
-                                    <button class="btn btn-default add-to-cart">Tükendi</button>
-                                }
+
+            foreach (var kitap in favoriList)
+            {
+                if (sayfa == 3)
+                {
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center" style="height: 425px;">
+                                    <a href="/Urun/UrunDetay/@kitap.tblKitap.KitapID"><img style="height: 300px;" src="~/Content/images/kitaplar/@kitap.tblKitap.KapakResmi" alt="" /></a>
+                                    <h2>₺@kitap.tblKitap.Fiyati</h2>
+                                    <p>@kitap.tblKitap.KitapAdi</p>
+                                    @if (kitap.tblKitap.StokDurumu == true)
+                                    {
+                                        <button class="btn btn-default add-to-cart"><a class="SepeteAt" name="@kitap.tblKitap.KitapID"><i class="fa fa-shopping-cart"></i>Sepete Ekle</a></button>
+                                    }
+                                    else
+                                    {
+
+                                        <button class="btn btn-default add-to-cart">Tükendi</button>
+                                    }
+                                </div>
+                            </div>
+                            <div class="choose">
+                                <ul class="nav nav-pills nav-justified">
+                                    @*/Urun/FavorilereEkle/@kitap.KitapID*@
+                                    <li><a id="@kitap.tblKitap.KitapID" class="FavoriCikar"><i class="fa fa-plus-square"></i>Favorilerden Çıkar</a></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="choose">
-                            <ul class="nav nav-pills nav-justified">
-                                @*/Urun/FavorilereEkle/@kitap.KitapID*@
-                                <li><a id="@kitap.tblKitap.KitapID" class="FavoriCikar"><i class="fa fa-plus-square"></i>Favorilerden Çıkar</a></li>
-                            </ul>
-                        </div>
                     </div>
-                </div>
-            }
-            else
-            {
-                <div class="col-sm-6">
-                    <div class="product-image-wrapper">
-                        <div class="single-products">
-                            <div class="productinfo text-center" style="height: 525px;">
-                                <a href="/Urun/UrunDetay/@kitap.tblKitap.KitapID"><img style="height: 400px;" src="~/Content/images/kitaplar/@kitap.tblKitap.KapakResmi" alt="" /></a>
-                                <h2>₺@kitap.tblKitap.Fiyati</h2>
-                                <p>@kitap.tblKitap.KitapAdi</p>
-                                @if (kitap.tblKitap.StokDurumu == true)
-                                {
-                                    <button class="btn btn-default add-to-cart"><a class="SepeteAt" name="@kitap.tblKitap.KitapID"><i class="fa fa-shopping-cart"></i>Sepete Ekle</a></button>
-                                }
-                                else
-                                {
+                }
+                else
+                {
+                    <div class="col-sm-6">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <div class="productinfo text-center" style="height: 425px;">
+                                    <a href="/Urun/UrunDetay/@kitap.tblKitap.KitapID"><img style="height: 300px;" src="~/Content/images/kitaplar/@kitap.tblKitap.KapakResmi" alt="" /></a>
+                                    <h2>₺@kitap.tblKitap.Fiyati</h2>
+                                    <p>@kitap.tblKitap.KitapAdi</p>
+                                    @if (kitap.tblKitap.StokDurumu == true)
+                                    {
+                                        <button class="btn btn-default add-to-cart"><a class="SepeteAt" name="@kitap.tblKitap.KitapID"><i class="fa fa-shopping-cart"></i>Sepete Ekle</a></button>
+                                    }
+                                    else
+                                    {
 
-                                    <button class="btn btn-default add-to-cart">Tükendi</button>
-                                }
+                                        <button class="btn btn-default add-to-cart">Tükendi</button>
+                                    }
+                                </div>
+                            </div>
+                            <div class="choose">
+                                <ul class="nav nav-pills nav-justified">
+                                    @*/Urun/FavorilereEkle/@kitap.KitapID*@
+                                    <li><a href="/Urun/FavorilerdenCikar/@kitap.tblKitap.KitapID"><i class="fa fa-plus-square"></i>Favorilerden Çıkar</a></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="choose">
-                            <ul class="nav nav-pills nav-justified">
-                                @*/Urun/FavorilereEkle/@kitap.KitapID*@
-                                <li><a href="/Urun/FavorilerdenCikar/@kitap.tblKitap.KitapID"><i class="fa fa-plus-square"></i>Favorilerden Çıkar</a></li>
-                            </ul>
-                        </div>
                     </div>
-                </div>
+                }
             }
         }
     </div><!--features_items-->

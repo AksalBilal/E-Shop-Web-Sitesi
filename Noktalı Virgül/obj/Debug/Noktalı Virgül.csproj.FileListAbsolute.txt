@@ -1064,3 +1064,86 @@ C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Vi
 C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CopyComplete
 C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\obj\Debug\Noktalı Virgül.dll
 C:\Users\bilal\OneDrive\Masaüstü\Noktalı Virgül  admin-eklentili\Noktalı Virgül\obj\Debug\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\Noktalı Virgül.dll.config
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\Noktalı Virgül.pdb
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\csc.exe
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\csc.exe.config
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\csc.rsp
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\csi.exe
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\csi.exe.config
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\csi.rsp
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.AppContext.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Console.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.IO.Compression.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Security.Claims.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.ValueTuple.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\vbc.exe
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\vbc.exe.config
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\vbc.rsp
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\EntityFramework.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\EntityFramework.SqlServer.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\PagedList.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\PagedList.Mvc.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\System.Web.Helpers.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\System.Web.Mvc.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\System.Web.Razor.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\System.Web.Webpages.Deployment.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\System.Web.Webpages.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\System.Web.Webpages.Razor.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\EntityFramework.xml
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\EntityFramework.SqlServer.xml
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\PagedList.xml
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\PagedList.Mvc.xml
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\System.Web.Razor.xml
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\System.Web.Webpages.xml
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\System.Web.Webpages.Deployment.xml
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\System.Web.Webpages.Razor.xml
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\System.Web.Helpers.xml
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\System.Web.Mvc.xml
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\tr\System.Web.Razor.resources.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\obj\Debug\Noktalı Virgül.csprojAssemblyReference.cache
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CoreCompileInputs.cache
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\obj\Debug\Noktalı Virgül.csproj.CopyComplete
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\obj\Debug\Noktalı Virgül.dll
+C:\Users\bilal\OneDrive\Belgeler\GitHub\E-Shop-Web-Sitesi\Noktalı Virgül\obj\Debug\Noktalı Virgül.pdb

@@ -44,6 +44,7 @@ namespace Noktalı_Virgül.Controllers
         }
         public ActionResult UrunDetay(int id, int Page=1)
         {
+            
             ViewBag.yayinEvi = db.tblYayinEvi.ToList();
             ViewBag.turList = db.tblKitapTur.ToList();
             ViewBag.kitap = db.tblKitap.Find(id);
